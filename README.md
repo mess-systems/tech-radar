@@ -57,9 +57,10 @@ Codes from the standard that have no entry yet are not listed.
 | [OpenTelemetry](technologies/opentelemetry.md) | `obs` | Adopt | [opentelemetry.md](technologies/opentelemetry.md) |
 | [Prometheus](technologies/prometheus.md) | `obs` | Adopt | [prometheus.md](technologies/prometheus.md) |
 | [Grafana](technologies/grafana.md) | `obs` | Trial | [grafana.md](technologies/grafana.md) |
+| [agentgateway](technologies/agentgateway.md) | `ai` | Adopt | [agentgateway.md](technologies/agentgateway.md) |
 | [Model Context Protocol](technologies/mcp.md) | `ai` | Adopt | [mcp.md](technologies/mcp.md) |
 | [Langfuse](technologies/langfuse.md) | `ai` | Trial | [langfuse.md](technologies/langfuse.md) |
-| [LiteLLM](technologies/litellm.md) | `ai` | Trial | [litellm.md](technologies/litellm.md) |
+| [LiteLLM](technologies/litellm.md) | `ai` | Hold | [litellm.md](technologies/litellm.md) |
 | [ClickHouse](technologies/clickhouse.md) | `data` | Adopt | [clickhouse.md](technologies/clickhouse.md) |
 | [dbt](technologies/dbt.md) | `data` | Adopt | [dbt.md](technologies/dbt.md) |
 | [PostgreSQL](technologies/postgresql.md) | `data` | Adopt | [postgresql.md](technologies/postgresql.md) |

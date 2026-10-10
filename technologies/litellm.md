@@ -2,19 +2,19 @@
 
 | Category | Ring | Kind |
 |---|---|---|
-| [`ai`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#42-domains) | [Trial](../README.md#rings) | Product |
+| [`ai`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#42-domains) | [Hold](../README.md#rings) | Product |
 
 ## What it is
 
-Open-source LLM gateway and proxy (MIT core) that exposes many model providers through one OpenAI-compatible API, with virtual keys, budgets, and logging. Official site: [docs.litellm.ai](https://docs.litellm.ai/).
+Open-source LLM gateway and proxy that exposes many model providers through one OpenAI-compatible API, with virtual keys, budgets, and logging. The repository is MIT-licensed except for the `enterprise/` directory, which has its own license. Official site: [docs.litellm.ai](https://docs.litellm.ai/).
 
 ## Why mess.systems uses it
 
-It is the example product for the `gateway` capability (`gateway.ai.corp`): route prefixes `<provider-short>/<model>`, MCP targets, gateway client identities, and the secrets worked example.
+It is not used for new work. The `gateway` capability (`gateway.ai.corp`) moves to [agentgateway](agentgateway.md). The naming standard still uses LiteLLM as the illustrative product in its worked examples; the rules (route prefixes `<provider-short>/<model>`, MCP targets, gateway client identities, secrets layout) apply to any gateway product.
 
 ## Alternatives considered
 
-Other LLM gateways. Trial because the standard names it as an illustration.
+[agentgateway](agentgateway.md) is the default choice: one gateway for LLM, MCP, and A2A traffic, Apache-2.0, under Linux Foundation governance. Hold, not removal, because the naming standard's examples still name LiteLLM and existing use may continue until it is replaced.
 
 ## Where it applies
 
@@ -25,10 +25,11 @@ Other LLM gateways. Trial because the standard names it as an illustration.
 
 ## Review trigger
 
-After it has carried the `gateway` capability in a limited scope: promote to Adopt or move to Hold.
+The naming standard's examples stop naming LiteLLM and no use remains: remove the entry. Or agentgateway moves to Hold: reopen the `gateway` decision.
 
 ## History
 
 | Date | Ring | Change |
 |---|---|---|
 | 2026-10-09 | Trial | Initial entry. |
+| 2026-10-10 | Hold | agentgateway becomes the target product for the `gateway` capability. |
