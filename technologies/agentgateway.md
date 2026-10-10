@@ -25,7 +25,7 @@ It is the target product for the `gateway` capability (`gateway.ai.corp`): the s
 - [Worked example: an LLM gateway](https://github.com/mess-systems/naming-standard/blob/main/03-secrets-conventions.md#8-worked-example-an-llm-gateway)
 - [Gateway client identities](https://github.com/mess-systems/naming-standard/blob/main/04-identity-conventions.md#9-gateway-client-identities)
 
-The worked examples in the naming standard still use LiteLLM as the illustrative product name; the rules do not depend on the product.
+The naming standard uses agentgateway as the example product for the `gateway` capability; the rules do not depend on the product.
 
 ## Review trigger
 
