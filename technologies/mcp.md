@@ -25,7 +25,7 @@ Provider-specific tool-calling integrations. Chosen because one protocol lets th
 
 | Capabilities | Blueprints |
 |---|---|
-| not mapped yet | none yet |
+| cross-cutting (platform) | none yet |
 
 ## Review trigger
 

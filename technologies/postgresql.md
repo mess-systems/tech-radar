@@ -28,7 +28,7 @@ Other relational databases. Chosen because the standard already fixes its databa
 
 | Capabilities | Blueprints |
 |---|---|
-| not mapped yet | none yet |
+| cross-cutting (platform) | none yet |
 
 ## Review trigger
 

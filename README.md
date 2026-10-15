@@ -19,7 +19,7 @@ A technology may enter the radar at Assess while it is being evaluated; it leave
 
 ## Categories
 
-Categories are the [domain codes](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#42-domains) of the naming standard, so the radar and the standard use one vocabulary. Each card names the capabilities it serves and the [blueprints](https://github.com/mess-systems/blueprints) it takes part in; capabilities are taken from the standard's [capability codes](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains).
+Categories are the [domain codes](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#42-domains) of the naming standard, so the radar and the standard use one vocabulary. Each card names the capabilities it serves and the [blueprints](https://github.com/mess-systems/blueprints) it takes part in; technologies that serve every capability (configuration, provisioning, databases, telemetry, protocols) are marked **cross-cutting (platform)** instead of a single code; capabilities are taken from the standard's [capability codes](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains).
 
 | Code | Domain |
 |---|---|
@@ -35,6 +35,7 @@ Categories are the [domain codes](https://github.com/mess-systems/naming-standar
 | `data` | warehouse, pipelines, catalog, BI, document store |
 | `itsm` | service desk, change |
 | `collab` | chat, wiki, docs, video |
+| `device` | employee devices, device-side agents, virtual desktops |
 
 Codes from the standard that have no entry yet are not listed.
 
@@ -65,14 +66,11 @@ Codes from the standard that have no entry yet are not listed.
 | [Keenetic](technologies/keenetic.md) | `net` | Adopt | [keenetic.md](technologies/keenetic.md) | `firewall` |   |
 | [MikroTik](technologies/mikrotik.md) | `net` | Adopt | [mikrotik.md](technologies/mikrotik.md) | `firewall` |   |
 | [NetBird](technologies/netbird.md) | `net` | Adopt | [netbird.md](technologies/netbird.md) | `endpoint`, `mesh` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
-| [Ansible](technologies/ansible.md) | `infra` | Adopt | [ansible.md](technologies/ansible.md) |   | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
+| [Ansible](technologies/ansible.md) | `infra` | Adopt | [ansible.md](technologies/ansible.md) | cross-cutting (platform) | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
 | [Kubernetes](technologies/kubernetes.md) | `infra` | Adopt | [kubernetes.md](technologies/kubernetes.md) | `k8s` |   |
-| [OpenTofu](technologies/opentofu.md) | `infra` | Adopt | [opentofu.md](technologies/opentofu.md) |   |   |
+| [OpenTofu](technologies/opentofu.md) | `infra` | Adopt | [opentofu.md](technologies/opentofu.md) | cross-cutting (platform) |   |
 | [Proxmox VE](technologies/proxmox-ve.md) | `infra` | Adopt | [proxmox-ve.md](technologies/proxmox-ve.md) | `compute` |   |
 | [RustFS](technologies/rustfs.md) | `infra` | Adopt | [rustfs.md](technologies/rustfs.md) | `storage` |   |
-| [WinBoat](technologies/winboat.md) | `infra` | Adopt | [winboat.md](technologies/winboat.md) | `endpoint` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
-| [Fleet](technologies/fleet.md) | `infra` | Trial | [fleet.md](technologies/fleet.md) | `endpoint` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
-| [Podman](technologies/podman.md) | `infra` | Trial | [podman.md](technologies/podman.md) | `endpoint` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
 | [kind and k3s](technologies/k3s.md) | `infra` | Assess | [k3s.md](technologies/k3s.md) | `k8s` |   |
 | [Argo CD](technologies/argo-cd.md) | `sdlc` | Adopt | [argo-cd.md](technologies/argo-cd.md) | `gitops` |   |
 | [Forgejo](technologies/forgejo.md) | `sdlc` | Adopt | [forgejo.md](technologies/forgejo.md) | `git` |   |
@@ -86,7 +84,7 @@ Codes from the standard that have no entry yet are not listed.
 | [Grafana Loki](technologies/loki.md) | `obs` | Adopt | [loki.md](technologies/loki.md) | `logs` |   |
 | [Grafana Tempo](technologies/tempo.md) | `obs` | Adopt | [tempo.md](technologies/tempo.md) | `traces` |   |
 | [OpenLLMetry](technologies/openllmetry.md) | `obs` | Adopt | [openllmetry.md](technologies/openllmetry.md) | `llm-traces` |   |
-| [OpenTelemetry](technologies/opentelemetry.md) | `obs` | Adopt | [opentelemetry.md](technologies/opentelemetry.md) |   |   |
+| [OpenTelemetry](technologies/opentelemetry.md) | `obs` | Adopt | [opentelemetry.md](technologies/opentelemetry.md) | cross-cutting (platform) |   |
 | [Prometheus](technologies/prometheus.md) | `obs` | Adopt | [prometheus.md](technologies/prometheus.md) | `metrics` |   |
 | [Telegraf](technologies/telegraf.md) | `obs` | Trial | [telegraf.md](technologies/telegraf.md) | `metrics` |   |
 | [Zabbix](technologies/zabbix.md) | `obs` | Assess | [zabbix.md](technologies/zabbix.md) | `alerts` |   |
@@ -98,7 +96,7 @@ Codes from the standard that have no entry yet are not listed.
 | [Langfuse](technologies/langfuse.md) | `ai` | Adopt | [langfuse.md](technologies/langfuse.md) | `llm-traces` |   |
 | [LangGraph](technologies/langgraph.md) | `ai` | Adopt | [langgraph.md](technologies/langgraph.md) | `inference` |   |
 | [LiveKit](technologies/livekit.md) | `ai` | Adopt | [livekit.md](technologies/livekit.md) | `stt` |   |
-| [Model Context Protocol](technologies/mcp.md) | `ai` | Adopt | [mcp.md](technologies/mcp.md) |   |   |
+| [Model Context Protocol](technologies/mcp.md) | `ai` | Adopt | [mcp.md](technologies/mcp.md) | cross-cutting (platform) |   |
 | [TinyFish](technologies/tinyfish.md) | `ai` | Adopt | [tinyfish.md](technologies/tinyfish.md) | `inference` |   |
 | [Unsloth](technologies/unsloth.md) | `ai` | Adopt | [unsloth.md](technologies/unsloth.md) | `inference` |   |
 | [vLLM](technologies/vllm.md) | `ai` | Adopt | [vllm.md](technologies/vllm.md) | `inference` |   |
@@ -107,7 +105,7 @@ Codes from the standard that have no entry yet are not listed.
 | [Langflow](technologies/langflow.md) | `ai` | Trial | [langflow.md](technologies/langflow.md) | `inference` |   |
 | [Laya](technologies/laya.md) | `ai` | Trial | [laya.md](technologies/laya.md) | `guard` |   |
 | [agentdesktop](technologies/agentdesktop.md) | `ai` | Trial | [agentdesktop.md](technologies/agentdesktop.md) | `endpoint` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
-| [LibreChat](technologies/librechat.md) | `ai` | Trial | [librechat.md](technologies/librechat.md) | `chat` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
+| [LibreChat](technologies/librechat.md) | `ai` | Trial | [librechat.md](technologies/librechat.md) | `assistant` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
 | [Onyx](technologies/onyx.md) | `ai` | Trial | [onyx.md](technologies/onyx.md) | `kb` |   |
 | [llama.cpp](technologies/llama-cpp.md) | `ai` | Assess | [llama-cpp.md](technologies/llama-cpp.md) | `inference` |   |
 | [Mem0](technologies/mem0.md) | `ai` | Assess | [mem0.md](technologies/mem0.md) | `kb` |   |
@@ -121,7 +119,7 @@ Codes from the standard that have no entry yet are not listed.
 | [DuckDB](technologies/duckdb.md) | `data` | Adopt | [duckdb.md](technologies/duckdb.md) | `sql` |   |
 | [MarkItDown](technologies/markitdown.md) | `data` | Adopt | [markitdown.md](technologies/markitdown.md) | `convert` |   |
 | [OpenMetadata](technologies/openmetadata.md) | `data` | Adopt | [openmetadata.md](technologies/openmetadata.md) | `data-catalog` |   |
-| [PostgreSQL](technologies/postgresql.md) | `data` | Adopt | [postgresql.md](technologies/postgresql.md) |   |   |
+| [PostgreSQL](technologies/postgresql.md) | `data` | Adopt | [postgresql.md](technologies/postgresql.md) | cross-cutting (platform) |   |
 | [S3 API](technologies/s3.md) | `data` | Adopt | [s3.md](technologies/s3.md) | `objects` |   |
 | [Temporal](technologies/temporal.md) | `data` | Adopt | [temporal.md](technologies/temporal.md) | `orchestrate` |   |
 | [Qdrant](technologies/qdrant.md) | `data` | Assess | [qdrant.md](technologies/qdrant.md) | `kb` |   |
@@ -130,10 +128,13 @@ Codes from the standard that have no entry yet are not listed.
 | [Kestra](technologies/kestra.md) | `data` | Hold | [kestra.md](technologies/kestra.md) | `orchestrate` |   |
 | [n8n](technologies/n8n.md) | `data` | Hold | [n8n.md](technologies/n8n.md) | `orchestrate` |   |
 | [GLPI](technologies/glpi.md) | `itsm` | Hold | [glpi.md](technologies/glpi.md) | `service-desk` |   |
-| [Kasm Workspaces](technologies/kasm-workspaces.md) | `collab` | Adopt | [kasm-workspaces.md](technologies/kasm-workspaces.md) | `endpoint` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
 | [Matrix](technologies/matrix.md) | `collab` | Adopt | [matrix.md](technologies/matrix.md) | `chat` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
-| [RustDesk](technologies/rustdesk.md) | `collab` | Adopt | [rustdesk.md](technologies/rustdesk.md) | `endpoint` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
 | [Mattermost](technologies/mattermost.md) | `collab` | Trial | [mattermost.md](technologies/mattermost.md) | `chat` |   |
+| [Kasm Workspaces](technologies/kasm-workspaces.md) | `device` | Adopt | [kasm-workspaces.md](technologies/kasm-workspaces.md) | `vdi` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
+| [RustDesk](technologies/rustdesk.md) | `device` | Adopt | [rustdesk.md](technologies/rustdesk.md) | `endpoint` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
+| [WinBoat](technologies/winboat.md) | `device` | Adopt | [winboat.md](technologies/winboat.md) | `endpoint` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
+| [Fleet](technologies/fleet.md) | `device` | Trial | [fleet.md](technologies/fleet.md) | `endpoint` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
+| [Podman](technologies/podman.md) | `device` | Trial | [podman.md](technologies/podman.md) | `endpoint` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
 
 ## Cards
 
