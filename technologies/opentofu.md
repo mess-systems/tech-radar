@@ -24,7 +24,7 @@ Terraform: same language, but released under the Business Source License since A
 
 | Capabilities | Blueprints |
 |---|---|
-| not mapped yet | none yet |
+| cross-cutting (platform) | none yet |
 
 ## Review trigger
 

@@ -24,7 +24,7 @@ Other configuration management tools. Chosen because the standard already fixes 
 
 | Capabilities | Blueprints |
 |---|---|
-| not mapped yet | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
+| cross-cutting (platform) | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
 
 ## Review trigger
 

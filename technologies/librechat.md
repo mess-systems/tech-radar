@@ -18,13 +18,13 @@ Open WebUI. Trial: limited scope.
 
 ## Where it applies
 
-- [Capability codes: `chat`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains)
+- [Capability codes: `assistant`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains)
 
 ## Capabilities and blueprints
 
 | Capabilities | Blueprints |
 |---|---|
-| [`chat`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
+| [`assistant`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
 
 ## Review trigger
 

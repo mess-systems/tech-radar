@@ -25,7 +25,7 @@ Vendor-specific agents and SDKs. Chosen because it is vendor-neutral and its `se
 
 | Capabilities | Blueprints |
 |---|---|
-| not mapped yet | none yet |
+| cross-cutting (platform) | none yet |
 
 ## Review trigger
 
