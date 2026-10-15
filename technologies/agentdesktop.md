@@ -2,7 +2,7 @@
 
 | Category | Ring | Kind |
 |---|---|---|
-| [`adlc`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#42-domains) | [Trial](../README.md#rings) | Product |
+| [`ai`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#42-domains) | [Trial](../README.md#rings) | Product |
 
 ## What it is
 
@@ -18,13 +18,15 @@ Per-tool managed settings pushed by the device management tool. Rejected: every 
 
 ## Where it applies
 
-- [Gateway client identities](https://github.com/mess-systems/naming-standard/blob/main/04-identity-conventions.md)
+- [Capability codes: `endpoint`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains)
+- [Gateway client identities](https://github.com/mess-systems/naming-standard/blob/main/04-identity-conventions.md#9-gateway-client-identities)
+- [Endpoint conventions](https://github.com/mess-systems/naming-standard/blob/main/06-endpoint-conventions.md)
 
 ## Capabilities and blueprints
 
 | Capabilities | Blueprints |
 |---|---|
-| not mapped yet | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
+| [`endpoint`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
 
 ## Review trigger
 
