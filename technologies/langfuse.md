@@ -2,7 +2,7 @@
 
 | Category | Ring | Kind |
 |---|---|---|
-| [`ai`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#42-domains) | [Trial](../README.md#rings) | Product |
+| [`ai`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#42-domains) | [Adopt](../README.md#rings) | Product |
 
 ## What it is
 
@@ -14,7 +14,7 @@ It is the example for the `llm-traces` capability: the service account `svc-corp
 
 ## Alternatives considered
 
-Other LLM observability tools, or general OpenTelemetry tracing. Trial because the standard names it as an illustration.
+Other LLM observability tools, or general OpenTelemetry tracing. Adopt: default LLM traces store.
 
 ## Where it applies
 
@@ -23,10 +23,11 @@ Other LLM observability tools, or general OpenTelemetry tracing. Trial because t
 
 ## Review trigger
 
-After it has carried the `llm-traces` capability in a limited scope: promote to Adopt or move to Hold.
+A license or maintenance change upstream, or a better fit for the capability.
 
 ## History
 
 | Date | Ring | Change |
 |---|---|---|
 | 2026-10-09 | Trial | Initial entry. |
+| 2026-10-15 | Adopt | Default LLM traces and evals store. |

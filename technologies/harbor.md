@@ -2,7 +2,7 @@
 
 | Category | Ring | Kind |
 |---|---|---|
-| [`sdlc`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#42-domains) | [Trial](../README.md#rings) | Product |
+| [`sdlc`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#42-domains) | [Adopt](../README.md#rings) | Product |
 
 ## What it is
 
@@ -14,7 +14,7 @@ It is the example registry for the `oci` capability: registry projects are named
 
 ## Alternatives considered
 
-Registries built into git forges, or cloud registries. Trial because the standard names it as an illustration.
+Registries built into git forges, or cloud registries. Adopt: default OCI registry; NORA covers other package formats.
 
 ## Where it applies
 
@@ -23,10 +23,11 @@ Registries built into git forges, or cloud registries. Trial because the standar
 
 ## Review trigger
 
-After it has carried the `oci` capability in a limited scope: promote to Adopt or move to Hold.
+A license or maintenance change upstream, or a better fit for the capability.
 
 ## History
 
 | Date | Ring | Change |
 |---|---|---|
 | 2026-10-09 | Trial | Initial entry. |
+| 2026-10-15 | Adopt | Default OCI registry. |

@@ -12,6 +12,8 @@ Thanks for helping improve the tech radar. A ring is a decision; every decision 
 
 ## Changing a ring
 
+The rings are Adopt, Trial, Assess, and Hold (see the [README](README.md#rings)).
+
 1. **Edit the card.** Update the ring in the card's header table, and adjust *Why mess.systems uses it* or *Alternatives considered* if the reasoning changed.
 2. **Add a History row** to the card: date (`YYYY-MM-DD`), new ring, and one sentence of rationale.
 3. **Update the README table** so the ring matches the card.

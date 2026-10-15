@@ -2,7 +2,7 @@
 
 | Category | Ring | Kind |
 |---|---|---|
-| [`obs`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#42-domains) | [Trial](../README.md#rings) | Product |
+| [`obs`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#42-domains) | [Adopt](../README.md#rings) | Product |
 
 ## What it is
 
@@ -14,7 +14,7 @@ It is the example product for the `dashboards` capability throughout the standar
 
 ## Alternatives considered
 
-Other dashboard tools. Trial because the standard names it as an illustration ("e.g. Grafana").
+Other dashboard tools. Adopt: default dashboards.
 
 ## Where it applies
 
@@ -24,10 +24,11 @@ Other dashboard tools. Trial because the standard names it as an illustration ("
 
 ## Review trigger
 
-After it has carried the `dashboards` capability in a limited scope: promote to Adopt or move to Hold.
+A license or maintenance change upstream, or a better fit for the capability.
 
 ## History
 
 | Date | Ring | Change |
 |---|---|---|
 | 2026-10-09 | Trial | Initial entry. |
+| 2026-10-15 | Adopt | Default dashboards for the Prometheus, Loki and Tempo stack. |
