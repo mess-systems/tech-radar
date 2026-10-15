@@ -18,13 +18,14 @@ Docker Engine and Docker Desktop: a permanent root daemon, and Docker Desktop li
 
 ## Where it applies
 
+- [Capability codes: `endpoint`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains)
 - [Object forms](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#5-object-forms) (images)
 
 ## Capabilities and blueprints
 
 | Capabilities | Blueprints |
 |---|---|
-| not mapped yet | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
+| [`endpoint`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
 
 ## Review trigger
 
