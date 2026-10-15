@@ -27,6 +27,12 @@ It is the target product for the `gateway` capability (`gateway.ai.corp`): the s
 
 The naming standard uses agentgateway as the example product for the `gateway` capability; the rules do not depend on the product.
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| [`gateway`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
+
 ## Review trigger
 
 A license or governance change of the project; a breaking change in MCP or A2A support; or a release that removes a capability the standard relies on (client identities, per-key budgets, MCP federation).

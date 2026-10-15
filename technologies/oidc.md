@@ -23,6 +23,12 @@ SAML 2.0 covers browser sign-in but not the JWT-based machine flows the standard
 - [Principles applied (rule S5)](https://github.com/mess-systems/naming-standard/blob/main/03-secrets-conventions.md#1-principles-applied)
 - [IdP objects](https://github.com/mess-systems/naming-standard/blob/main/04-identity-conventions.md#6-idp-objects)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| [`sso`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+
 ## Review trigger
 
 A successor specification gaining broad IdP support, or a change to how the standard binds groups to roles.

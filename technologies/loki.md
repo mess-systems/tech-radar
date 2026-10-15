@@ -20,6 +20,12 @@ Other log backends. Chosen because the standard names its label directly.
 
 - [Object forms](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#5-object-forms)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| [`logs`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+
 ## Review trigger
 
 A change to the observability forms, or a decision to fold `obs` into `infra` (an open question of the standard).

@@ -21,6 +21,12 @@ Other GitOps controllers. Adopt: target product for GitOps.
 - [Kubernetes RBAC](https://github.com/mess-systems/naming-standard/blob/main/04-identity-conventions.md#10-kubernetes-rbac)
 - [IdP objects](https://github.com/mess-systems/naming-standard/blob/main/04-identity-conventions.md#6-idp-objects)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| [`gitops`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+
 ## Review trigger
 
 A license or maintenance change upstream, or a better fit for the capability.

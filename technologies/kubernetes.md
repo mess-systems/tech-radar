@@ -23,6 +23,12 @@ Running containers directly on VMs needs no extra forms beyond hosts. Chosen bec
 - [Kubernetes RBAC](https://github.com/mess-systems/naming-standard/blob/main/04-identity-conventions.md#10-kubernetes-rbac)
 - [Auth roles and tokens](https://github.com/mess-systems/naming-standard/blob/main/03-secrets-conventions.md#6-auth-roles-and-tokens)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| [`k8s`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+
 ## Review trigger
 
 A Kubernetes change to object-name or label rules, or a change to the Kubernetes forms of the standard.

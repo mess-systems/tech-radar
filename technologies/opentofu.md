@@ -20,6 +20,12 @@ Terraform: same language, but released under the Business Source License since A
 
 - [Object forms](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#5-object-forms)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| not mapped yet | none yet |
+
 ## Review trigger
 
 A license or governance change upstream, or loss of provider compatibility.

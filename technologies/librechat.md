@@ -20,6 +20,12 @@ Open WebUI. Trial: limited scope.
 
 - [Capability codes: `docs`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| [`docs`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
+
 ## Review trigger
 
 After it has carried the capability in a limited scope: promote to Adopt or move to Hold.

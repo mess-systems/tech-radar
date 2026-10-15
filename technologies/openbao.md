@@ -24,6 +24,12 @@ HashiCorp Vault: same API and policy model, but no longer under an open-source l
 - [Auth roles and tokens](https://github.com/mess-systems/naming-standard/blob/main/03-secrets-conventions.md#6-auth-roles-and-tokens)
 - [Secrets manager (OpenBao / Vault) in the identity conventions](https://github.com/mess-systems/naming-standard/blob/main/04-identity-conventions.md#7-secrets-manager-openbao--vault)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| [`secrets`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+
 ## Review trigger
 
 A license or governance change upstream, loss of API compatibility with the policy and KV v2 model the standard relies on, or a change to the secrets conventions.

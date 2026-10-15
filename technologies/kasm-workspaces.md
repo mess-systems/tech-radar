@@ -20,6 +20,12 @@ Plain VDI. Chosen for container isolation.
 
 - [Capability codes: `intranet`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| [`intranet`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
+
 ## Review trigger
 
 A license or maintenance change upstream, or a better fit for the capability.

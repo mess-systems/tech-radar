@@ -22,6 +22,12 @@ CI built into the git forge (Forgejo Actions), or other CI servers. Assess: kept
 - [Tokens, robots, credentials IDs](https://github.com/mess-systems/naming-standard/blob/main/04-identity-conventions.md#12-tokens-robots-credentials-ids)
 - [Policies (scoped read)](https://github.com/mess-systems/naming-standard/blob/main/03-secrets-conventions.md#5-policies)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| [`ci`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+
 ## Review trigger
 
 After an evaluation: move back to Trial or to Hold.

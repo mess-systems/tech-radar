@@ -20,6 +20,12 @@ Bitwarden self-hosted, Passbolt. Assess: unofficial server, check support and au
 
 - [Capability codes: `passwords`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| [`passwords`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
+
 ## Review trigger
 
 After an evaluation: move to Trial, or drop the entry.

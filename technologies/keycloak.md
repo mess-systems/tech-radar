@@ -22,6 +22,12 @@ Other IdPs whose objects the standard maps (Entra ID, Okta, and similar). Trial 
 - [IdP objects](https://github.com/mess-systems/naming-standard/blob/main/04-identity-conventions.md#6-idp-objects)
 - [Mounts (`auth/jwt-<idp>`)](https://github.com/mess-systems/naming-standard/blob/main/03-secrets-conventions.md#2-mounts)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| [`sso`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+
 ## Review trigger
 
 After it has run the `sso` capability in a limited scope: promote to Adopt or move to Hold. Earlier on a license or maintenance change upstream.

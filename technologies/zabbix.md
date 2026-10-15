@@ -20,6 +20,12 @@ Prometheus with SNMP exporters (Adopt). Assess: overlap with the Prometheus stac
 
 - [Capability codes: `alerts`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| [`alerts`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+
 ## Review trigger
 
 After an evaluation: move to Trial, or drop the entry.

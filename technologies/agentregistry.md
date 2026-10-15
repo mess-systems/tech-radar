@@ -20,6 +20,12 @@ Ad hoc lists. Trial: limited scope.
 
 - [Capability codes: `registry`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| [`registry`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+
 ## Review trigger
 
 After it has carried the capability in a limited scope: promote to Adopt or move to Hold.
