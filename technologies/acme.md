@@ -21,6 +21,12 @@ Manually issued or long-lived wildcard certificates. Chosen because it is an IET
 - [TLS](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#7-tls)
 - [Certificates in the worked example](https://github.com/mess-systems/naming-standard/blob/main/02-worked-example.md#6-certificates)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| [`pki`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+
 ## Review trigger
 
 A change to the TLS rules of the naming standard, or an internal endpoint class that cannot use ACME at all.

@@ -20,6 +20,12 @@ Snort, Zeek. Chosen for multithreading and broad rule support.
 
 - [Capability codes: `ids`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| [`ids`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+
 ## Review trigger
 
 A license or maintenance change upstream, or a better fit for the capability.

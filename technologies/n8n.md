@@ -20,6 +20,12 @@ Replaced by [Activepieces](activepieces.md) (MIT core).
 
 - [Capability codes: `orchestrate`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| [`orchestrate`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+
 ## Review trigger
 
 No use remains: remove the entry.

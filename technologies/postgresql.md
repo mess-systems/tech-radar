@@ -24,6 +24,12 @@ Other relational databases. Chosen because the standard already fixes its databa
 - [Database roles](https://github.com/mess-systems/naming-standard/blob/main/04-identity-conventions.md#11-database-roles)
 - [Services: intake and encoding](https://github.com/mess-systems/naming-standard/blob/main/02-worked-example.md#3-services-intake-and-encoding)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| not mapped yet | none yet |
+
 ## Review trigger
 
 A change to the database forms or role rules.

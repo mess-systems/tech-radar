@@ -21,6 +21,12 @@ Other LLM observability tools, or general OpenTelemetry tracing. Adopt: default 
 - [Gateway client identities](https://github.com/mess-systems/naming-standard/blob/main/04-identity-conventions.md#9-gateway-client-identities)
 - [Worked example: an LLM gateway](https://github.com/mess-systems/naming-standard/blob/main/03-secrets-conventions.md#8-worked-example-an-llm-gateway)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| [`llm-traces`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+
 ## Review trigger
 
 A license or maintenance change upstream, or a better fit for the capability.

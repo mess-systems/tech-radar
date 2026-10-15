@@ -22,6 +22,12 @@ Other dashboard tools. Adopt: default dashboards.
 - [App groups](https://github.com/mess-systems/naming-standard/blob/main/04-identity-conventions.md#33-app-groups-access-to-one-capability)
 - [Services: intake and encoding](https://github.com/mess-systems/naming-standard/blob/main/02-worked-example.md#3-services-intake-and-encoding)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| [`dashboards`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+
 ## Review trigger
 
 A license or maintenance change upstream, or a better fit for the capability.

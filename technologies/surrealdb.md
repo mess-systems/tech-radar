@@ -20,6 +20,12 @@ PostgreSQL (Adopt), CouchDB (Adopt). Assess: license and maturity.
 
 - [Capability codes: `docstore`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| [`docstore`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+
 ## Review trigger
 
 After an evaluation: move to Trial, or drop the entry.

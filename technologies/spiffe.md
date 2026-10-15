@@ -23,6 +23,12 @@ Per-host static credentials (AppRole secret-ids, API keys) remain the fallback f
 - [SPIFFE / SPIRE](https://github.com/mess-systems/naming-standard/blob/main/04-identity-conventions.md#8-spiffe--spire)
 - [Auth roles and tokens](https://github.com/mess-systems/naming-standard/blob/main/03-secrets-conventions.md#6-auth-roles-and-tokens)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| [`spiffe`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+
 ## Review trigger
 
 A new major version of the SPIFFE ID or SVID specifications, or a change to the trust-domain rule in the identity conventions.

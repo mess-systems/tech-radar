@@ -20,6 +20,12 @@ Kyverno for Kubernetes only. Chosen for one engine across systems.
 
 - [Capability codes: `policy`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| [`policy`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+
 ## Review trigger
 
 A license or maintenance change upstream, or a better fit for the capability.

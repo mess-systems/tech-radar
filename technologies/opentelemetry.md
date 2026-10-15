@@ -21,6 +21,12 @@ Vendor-specific agents and SDKs. Chosen because it is vendor-neutral and its `se
 - [Naming procedure (step D)](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#9-naming-procedure)
 - [Object forms](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#5-object-forms)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| not mapped yet | none yet |
+
 ## Review trigger
 
 A change to the OpenTelemetry semantic conventions for `service.name`, or to the observability forms.

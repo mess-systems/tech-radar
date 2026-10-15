@@ -21,6 +21,12 @@ Provider-specific tool-calling integrations. Chosen because one protocol lets th
 - [Object forms](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#5-object-forms)
 - [Gateway client identities](https://github.com/mess-systems/naming-standard/blob/main/04-identity-conventions.md#9-gateway-client-identities)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| not mapped yet | none yet |
+
 ## Review trigger
 
 A breaking revision of the protocol, or a change to the MCP target form.

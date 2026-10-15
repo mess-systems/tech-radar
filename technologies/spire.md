@@ -22,6 +22,12 @@ Other SPIFFE-compatible issuers or a service mesh's built-in identity. Trial bec
 - [Identity kinds](https://github.com/mess-systems/naming-standard/blob/main/04-identity-conventions.md#2-identity-kinds)
 - [Mounts (`auth/jwt-spire`, target)](https://github.com/mess-systems/naming-standard/blob/main/03-secrets-conventions.md#2-mounts)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| [`spiffe`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
+
 ## Review trigger
 
 When `jwt-spire` replaces AppRole for a first group of workloads: promote to Adopt or move to Hold.

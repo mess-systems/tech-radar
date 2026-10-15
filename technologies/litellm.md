@@ -23,6 +23,12 @@ It is not used for new work. The `gateway` capability (`gateway.ai.corp`) moves 
 - [Worked example: an LLM gateway](https://github.com/mess-systems/naming-standard/blob/main/03-secrets-conventions.md#8-worked-example-an-llm-gateway)
 - [Gateway client identities](https://github.com/mess-systems/naming-standard/blob/main/04-identity-conventions.md#9-gateway-client-identities)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| [`gateway`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+
 ## Review trigger
 
 No LiteLLM use remains: remove the entry. Or agentgateway moves to Hold: reopen the `gateway` decision.

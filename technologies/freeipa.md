@@ -20,6 +20,12 @@ Authentik's built-in directory, Samba AD. Assess: decide whether a separate Linu
 
 - [Capability codes: `directory`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| [`directory`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+
 ## Review trigger
 
 After an evaluation: move to Trial, or drop the entry.

@@ -20,6 +20,12 @@ Other configuration management tools. Chosen because the standard already fixes 
 
 - [Object forms](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#5-object-forms)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| not mapped yet | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
+
 ## Review trigger
 
 A change to the inventory form, or a decision to manage hosts only through images and GitOps.

@@ -20,6 +20,12 @@ Gitea, GitLab CE. Chosen for community governance and a free license with CI and
 
 - [Capability codes: `git`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains)
 
+## Capabilities and blueprints
+
+| Capabilities | Blueprints |
+|---|---|
+| [`git`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+
 ## Review trigger
 
 A license or maintenance change upstream, or a better fit for the capability.
