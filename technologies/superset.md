@@ -2,7 +2,7 @@
 
 | Category | Ring | Kind |
 |---|---|---|
-| [`data`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#42-domains) | [Trial](../README.md#rings) | Product |
+| [`data`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#42-domains) | [Adopt](../README.md#rings) | Product |
 
 ## What it is
 
@@ -14,7 +14,7 @@ It is the example BI tool in the database roles (`svc_corp_data_superset`).
 
 ## Alternatives considered
 
-Other BI tools. Trial because the standard names it as an illustration.
+Other BI tools. Adopt: target product for BI.
 
 ## Where it applies
 
@@ -22,10 +22,11 @@ Other BI tools. Trial because the standard names it as an illustration.
 
 ## Review trigger
 
-After it has carried the `bi` capability in a limited scope: promote to Adopt or move to Hold.
+A license or maintenance change upstream, or a better fit for the capability.
 
 ## History
 
 | Date | Ring | Change |
 |---|---|---|
 | 2026-10-09 | Trial | Initial entry. |
+| 2026-10-15 | Adopt | Target product for the `bi` capability. |

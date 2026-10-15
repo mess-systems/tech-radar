@@ -14,7 +14,7 @@ The [secrets conventions](https://github.com/mess-systems/naming-standard/blob/m
 
 ## Alternatives considered
 
-[HashiCorp Vault](vault.md): same API and policy model, but no longer under an open-source license (see its card). Cloud-provider secret stores tie secrets to one provider. Chosen because the standard's mount, path, and policy rules map onto it one to one under an open-source license.
+HashiCorp Vault: same API and policy model, but no longer under an open-source license; removed from the radar. Cloud-provider secret stores tie secrets to one provider. Chosen because the standard's mount, path, and policy rules map onto it one to one under an open-source license.
 
 ## Where it applies
 
@@ -33,3 +33,4 @@ A license or governance change upstream, loss of API compatibility with the poli
 | Date | Ring | Change |
 |---|---|---|
 | 2026-10-09 | Adopt | Initial entry. |
+| 2026-10-15 | Adopt | HashiCorp Vault entry removed from the radar. |

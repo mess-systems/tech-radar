@@ -10,6 +10,8 @@ SQL-based transformation framework: models, tests, and documentation for data in
 
 ## Why mess.systems uses it
 
+Runs with Elementary for data tests and observability.
+
 The object forms name datasets and dbt marts `<plane>.<domain>.<table>`. It fits the `transform` capability.
 
 ## Alternatives considered
@@ -29,3 +31,4 @@ A license change of dbt Core, or a change to the dataset form.
 | Date | Ring | Change |
 |---|---|---|
 | 2026-10-09 | Adopt | Initial entry. |
+| 2026-10-15 | Adopt | Elementary noted as the companion for data observability. |

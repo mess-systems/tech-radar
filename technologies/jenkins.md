@@ -2,7 +2,7 @@
 
 | Category | Ring | Kind |
 |---|---|---|
-| [`sdlc`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#42-domains) | [Trial](../README.md#rings) | Product |
+| [`sdlc`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#42-domains) | [Assess](../README.md#rings) | Product |
 
 ## What it is
 
@@ -14,7 +14,7 @@ It is the example product for the `ci` capability and the example service accoun
 
 ## Alternatives considered
 
-CI built into the git forge, or other CI servers. Trial because the standard names it as an illustration.
+CI built into the git forge (Forgejo Actions), or other CI servers. Assess: kept only where Forgejo Actions does not fit.
 
 ## Where it applies
 
@@ -24,10 +24,11 @@ CI built into the git forge, or other CI servers. Trial because the standard nam
 
 ## Review trigger
 
-After it has carried the `ci` capability in a limited scope: promote to Adopt or move to Hold.
+After an evaluation: move back to Trial or to Hold.
 
 ## History
 
 | Date | Ring | Change |
 |---|---|---|
 | 2026-10-09 | Trial | Initial entry. |
+| 2026-10-15 | Assess | Moved to Assess: CI defaults to Forgejo Actions. |

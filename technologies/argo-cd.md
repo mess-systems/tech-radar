@@ -2,7 +2,7 @@
 
 | Category | Ring | Kind |
 |---|---|---|
-| [`sdlc`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#42-domains) | [Trial](../README.md#rings) | Product |
+| [`sdlc`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#42-domains) | [Adopt](../README.md#rings) | Product |
 
 ## What it is
 
@@ -14,7 +14,7 @@ It is the example for GitOps projects (`<plane>` or `<product>`) and for moving 
 
 ## Alternatives considered
 
-Other GitOps controllers. Trial because the standard names it as an illustration.
+Other GitOps controllers. Adopt: target product for GitOps.
 
 ## Where it applies
 
@@ -23,10 +23,11 @@ Other GitOps controllers. Trial because the standard names it as an illustration
 
 ## Review trigger
 
-After it has carried the `gitops` capability in a limited scope: promote to Adopt or move to Hold.
+A license or maintenance change upstream, or a better fit for the capability.
 
 ## History
 
 | Date | Ring | Change |
 |---|---|---|
 | 2026-10-09 | Trial | Initial entry. |
+| 2026-10-15 | Adopt | Target product for the `gitops` capability. |

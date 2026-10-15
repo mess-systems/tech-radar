@@ -2,7 +2,7 @@
 
 The technology radar of **mess.systems**: which products and specifications the organisation uses, how firmly, and why.
 
-It is a simplified radar in plain Markdown: one table, three rings, and one card per technology. There is no site and no generator; the files in this repository are the radar.
+It is a simplified radar in plain Markdown: one table, four rings, and one card per technology. There is no site and no generator; the files in this repository are the radar.
 
 The radar covers the technologies named in the [mess.systems naming standard](https://github.com/mess-systems/naming-standard). Each card links back to the sections of the standard that name it.
 
@@ -12,9 +12,10 @@ The radar covers the technologies named in the [mess.systems naming standard](ht
 |---|---|
 | **Adopt** | The default choice. New work uses it unless a recorded reason says otherwise. |
 | **Trial** | In use within a limited scope. New use outside that scope needs a reason. |
+| **Assess** | Being evaluated. Not for production use until it moves to Trial or Adopt. |
 | **Hold** | No new adoption. Existing use may continue until it is replaced. |
 
-There is no "Assess" ring: a technology enters the radar when it is used, not when it is being considered.
+A technology may enter the radar at Assess while it is being evaluated; it leaves Assess for Trial, Adopt, or removal.
 
 ## Categories
 
@@ -23,12 +24,16 @@ Categories are the [domain codes](https://github.com/mess-systems/naming-standar
 | Code | Domain |
 |---|---|
 | `iam` | identity, access, PKI, secrets, passwords |
+| `gov` | architecture, policy, CMDB, ADRs |
+| `sec` | detection, vuln mgmt, SIEM |
 | `net` | DNS, mesh, edge, firewall |
 | `infra` | compute, storage, backup, hypervisor |
 | `sdlc` | code, CI, artifacts, GitOps |
+| `adlc` | AI/agent lifecycle, evals, policy sidecars |
 | `obs` | metrics, logs, traces, alerting |
 | `ai` | inference, gateway, speech, vision, agents |
 | `data` | warehouse, pipelines, catalog, BI, document store |
+| `itsm` | service desk, change |
 | `collab` | chat, wiki, docs, video |
 
 Codes from the standard that have no entry yet are not listed.
@@ -38,37 +43,95 @@ Codes from the standard that have no entry yet are not listed.
 | Technology | Category | Ring | Card |
 |---|---|---|---|
 | [ACME](technologies/acme.md) | `iam` | Adopt | [acme.md](technologies/acme.md) |
+| [Authentik](technologies/authentik.md) | `iam` | Adopt | [authentik.md](technologies/authentik.md) |
 | [OpenBao](technologies/openbao.md) | `iam` | Adopt | [openbao.md](technologies/openbao.md) |
 | [OpenID Connect](technologies/oidc.md) | `iam` | Adopt | [oidc.md](technologies/oidc.md) |
 | [SPIFFE](technologies/spiffe.md) | `iam` | Adopt | [spiffe.md](technologies/spiffe.md) |
 | [WebAuthn](technologies/webauthn.md) | `iam` | Adopt | [webauthn.md](technologies/webauthn.md) |
 | [Keycloak](technologies/keycloak.md) | `iam` | Trial | [keycloak.md](technologies/keycloak.md) |
+| [Pomerium](technologies/pomerium.md) | `iam` | Trial | [pomerium.md](technologies/pomerium.md) |
 | [SPIRE](technologies/spire.md) | `iam` | Trial | [spire.md](technologies/spire.md) |
-| [HashiCorp Vault](technologies/vault.md) | `iam` | Hold | [vault.md](technologies/vault.md) |
-| [Headscale](technologies/headscale.md) | `net` | Trial | [headscale.md](technologies/headscale.md) |
+| [FreeIPA](technologies/freeipa.md) | `iam` | Assess | [freeipa.md](technologies/freeipa.md) |
+| [Vaultwarden](technologies/vaultwarden.md) | `iam` | Assess | [vaultwarden.md](technologies/vaultwarden.md) |
+| [Zitadel](technologies/zitadel.md) | `iam` | Assess | [zitadel.md](technologies/zitadel.md) |
+| [Teleport](technologies/teleport.md) | `iam` | Hold | [teleport.md](technologies/teleport.md) |
+| [Open Policy Agent](technologies/opa.md) | `gov` | Adopt | [opa.md](technologies/opa.md) |
+| [NetBox](technologies/netbox.md) | `gov` | Trial | [netbox.md](technologies/netbox.md) |
+| [Opengrep](technologies/opengrep.md) | `sec` | Adopt | [opengrep.md](technologies/opengrep.md) |
+| [Suricata](technologies/suricata.md) | `sec` | Adopt | [suricata.md](technologies/suricata.md) |
+| [Trivy](technologies/trivy.md) | `sec` | Adopt | [trivy.md](technologies/trivy.md) |
+| [Wazuh](technologies/wazuh.md) | `sec` | Adopt | [wazuh.md](technologies/wazuh.md) |
+| [Cilium](technologies/cilium.md) | `net` | Adopt | [cilium.md](technologies/cilium.md) |
+| [Keenetic](technologies/keenetic.md) | `net` | Adopt | [keenetic.md](technologies/keenetic.md) |
+| [MikroTik](technologies/mikrotik.md) | `net` | Adopt | [mikrotik.md](technologies/mikrotik.md) |
+| [NetBird](technologies/netbird.md) | `net` | Adopt | [netbird.md](technologies/netbird.md) |
 | [Ansible](technologies/ansible.md) | `infra` | Adopt | [ansible.md](technologies/ansible.md) |
 | [Kubernetes](technologies/kubernetes.md) | `infra` | Adopt | [kubernetes.md](technologies/kubernetes.md) |
 | [OpenTofu](technologies/opentofu.md) | `infra` | Adopt | [opentofu.md](technologies/opentofu.md) |
-| [Argo CD](technologies/argo-cd.md) | `sdlc` | Trial | [argo-cd.md](technologies/argo-cd.md) |
-| [Gitea](technologies/gitea.md) | `sdlc` | Trial | [gitea.md](technologies/gitea.md) |
-| [Harbor](technologies/harbor.md) | `sdlc` | Trial | [harbor.md](technologies/harbor.md) |
-| [Jenkins](technologies/jenkins.md) | `sdlc` | Trial | [jenkins.md](technologies/jenkins.md) |
+| [Proxmox VE](technologies/proxmox-ve.md) | `infra` | Adopt | [proxmox-ve.md](technologies/proxmox-ve.md) |
+| [RustFS](technologies/rustfs.md) | `infra` | Adopt | [rustfs.md](technologies/rustfs.md) |
+| [WinBoat](technologies/winboat.md) | `infra` | Adopt | [winboat.md](technologies/winboat.md) |
+| [Fleet](technologies/fleet.md) | `infra` | Trial | [fleet.md](technologies/fleet.md) |
+| [kind and k3s](technologies/k3s.md) | `infra` | Assess | [k3s.md](technologies/k3s.md) |
+| [Argo CD](technologies/argo-cd.md) | `sdlc` | Adopt | [argo-cd.md](technologies/argo-cd.md) |
+| [Forgejo](technologies/forgejo.md) | `sdlc` | Adopt | [forgejo.md](technologies/forgejo.md) |
+| [Harbor](technologies/harbor.md) | `sdlc` | Adopt | [harbor.md](technologies/harbor.md) |
+| [NORA](technologies/nora.md) | `sdlc` | Adopt | [nora.md](technologies/nora.md) |
+| [SonarQube](technologies/sonarqube.md) | `sdlc` | Adopt | [sonarqube.md](technologies/sonarqube.md) |
+| [Unleash](technologies/unleash.md) | `sdlc` | Adopt | [unleash.md](technologies/unleash.md) |
+| [Jenkins](technologies/jenkins.md) | `sdlc` | Assess | [jenkins.md](technologies/jenkins.md) |
+| [Alertmanager](technologies/alertmanager.md) | `obs` | Adopt | [alertmanager.md](technologies/alertmanager.md) |
+| [Grafana](technologies/grafana.md) | `obs` | Adopt | [grafana.md](technologies/grafana.md) |
 | [Grafana Loki](technologies/loki.md) | `obs` | Adopt | [loki.md](technologies/loki.md) |
+| [Grafana Tempo](technologies/tempo.md) | `obs` | Adopt | [tempo.md](technologies/tempo.md) |
+| [OpenLLMetry](technologies/openllmetry.md) | `obs` | Adopt | [openllmetry.md](technologies/openllmetry.md) |
 | [OpenTelemetry](technologies/opentelemetry.md) | `obs` | Adopt | [opentelemetry.md](technologies/opentelemetry.md) |
 | [Prometheus](technologies/prometheus.md) | `obs` | Adopt | [prometheus.md](technologies/prometheus.md) |
-| [Grafana](technologies/grafana.md) | `obs` | Trial | [grafana.md](technologies/grafana.md) |
+| [Telegraf](technologies/telegraf.md) | `obs` | Trial | [telegraf.md](technologies/telegraf.md) |
+| [Zabbix](technologies/zabbix.md) | `obs` | Assess | [zabbix.md](technologies/zabbix.md) |
+| [CubeSandbox](technologies/cubesandbox.md) | `adlc` | Adopt | [cubesandbox.md](technologies/cubesandbox.md) |
+| [DeepEval](technologies/deepeval.md) | `adlc` | Adopt | [deepeval.md](technologies/deepeval.md) |
+| [agentregistry](technologies/agentregistry.md) | `adlc` | Trial | [agentregistry.md](technologies/agentregistry.md) |
+| [promptfoo](technologies/promptfoo.md) | `adlc` | Trial | [promptfoo.md](technologies/promptfoo.md) |
 | [agentgateway](technologies/agentgateway.md) | `ai` | Adopt | [agentgateway.md](technologies/agentgateway.md) |
+| [Langfuse](technologies/langfuse.md) | `ai` | Adopt | [langfuse.md](technologies/langfuse.md) |
+| [LangGraph](technologies/langgraph.md) | `ai` | Adopt | [langgraph.md](technologies/langgraph.md) |
+| [LiveKit](technologies/livekit.md) | `ai` | Adopt | [livekit.md](technologies/livekit.md) |
 | [Model Context Protocol](technologies/mcp.md) | `ai` | Adopt | [mcp.md](technologies/mcp.md) |
-| [Langfuse](technologies/langfuse.md) | `ai` | Trial | [langfuse.md](technologies/langfuse.md) |
+| [TinyFish](technologies/tinyfish.md) | `ai` | Adopt | [tinyfish.md](technologies/tinyfish.md) |
+| [Unsloth](technologies/unsloth.md) | `ai` | Adopt | [unsloth.md](technologies/unsloth.md) |
+| [vLLM](technologies/vllm.md) | `ai` | Adopt | [vllm.md](technologies/vllm.md) |
+| [DeepSeek Harness](technologies/deepseek-harness.md) | `ai` | Trial | [deepseek-harness.md](technologies/deepseek-harness.md) |
+| [kagent](technologies/kagent.md) | `ai` | Trial | [kagent.md](technologies/kagent.md) |
+| [Langflow](technologies/langflow.md) | `ai` | Trial | [langflow.md](technologies/langflow.md) |
+| [Laya](technologies/laya.md) | `ai` | Trial | [laya.md](technologies/laya.md) |
+| [LibreChat](technologies/librechat.md) | `ai` | Trial | [librechat.md](technologies/librechat.md) |
+| [Onyx](technologies/onyx.md) | `ai` | Trial | [onyx.md](technologies/onyx.md) |
+| [llama.cpp](technologies/llama-cpp.md) | `ai` | Assess | [llama-cpp.md](technologies/llama-cpp.md) |
+| [Mem0](technologies/mem0.md) | `ai` | Assess | [mem0.md](technologies/mem0.md) |
 | [LiteLLM](technologies/litellm.md) | `ai` | Hold | [litellm.md](technologies/litellm.md) |
+| [Activepieces](technologies/activepieces.md) | `data` | Adopt | [activepieces.md](technologies/activepieces.md) |
+| [Apache Airflow](technologies/airflow.md) | `data` | Adopt | [airflow.md](technologies/airflow.md) |
+| [Apache CouchDB](technologies/couchdb.md) | `data` | Adopt | [couchdb.md](technologies/couchdb.md) |
+| [Apache Superset](technologies/superset.md) | `data` | Adopt | [superset.md](technologies/superset.md) |
 | [ClickHouse](technologies/clickhouse.md) | `data` | Adopt | [clickhouse.md](technologies/clickhouse.md) |
 | [dbt](technologies/dbt.md) | `data` | Adopt | [dbt.md](technologies/dbt.md) |
+| [DuckDB](technologies/duckdb.md) | `data` | Adopt | [duckdb.md](technologies/duckdb.md) |
+| [MarkItDown](technologies/markitdown.md) | `data` | Adopt | [markitdown.md](technologies/markitdown.md) |
+| [OpenMetadata](technologies/openmetadata.md) | `data` | Adopt | [openmetadata.md](technologies/openmetadata.md) |
 | [PostgreSQL](technologies/postgresql.md) | `data` | Adopt | [postgresql.md](technologies/postgresql.md) |
 | [S3 API](technologies/s3.md) | `data` | Adopt | [s3.md](technologies/s3.md) |
-| [Apache Superset](technologies/superset.md) | `data` | Trial | [superset.md](technologies/superset.md) |
-| [MongoDB](technologies/mongodb.md) | `data` | Trial | [mongodb.md](technologies/mongodb.md) |
+| [Temporal](technologies/temporal.md) | `data` | Adopt | [temporal.md](technologies/temporal.md) |
+| [Qdrant](technologies/qdrant.md) | `data` | Assess | [qdrant.md](technologies/qdrant.md) |
+| [SurrealDB](technologies/surrealdb.md) | `data` | Assess | [surrealdb.md](technologies/surrealdb.md) |
+| [DataHub](technologies/datahub.md) | `data` | Hold | [datahub.md](technologies/datahub.md) |
+| [Kestra](technologies/kestra.md) | `data` | Hold | [kestra.md](technologies/kestra.md) |
+| [n8n](technologies/n8n.md) | `data` | Hold | [n8n.md](technologies/n8n.md) |
+| [GLPI](technologies/glpi.md) | `itsm` | Hold | [glpi.md](technologies/glpi.md) |
+| [Kasm Workspaces](technologies/kasm-workspaces.md) | `collab` | Adopt | [kasm-workspaces.md](technologies/kasm-workspaces.md) |
+| [Matrix](technologies/matrix.md) | `collab` | Adopt | [matrix.md](technologies/matrix.md) |
+| [RustDesk](technologies/rustdesk.md) | `collab` | Adopt | [rustdesk.md](technologies/rustdesk.md) |
 | [Mattermost](technologies/mattermost.md) | `collab` | Trial | [mattermost.md](technologies/mattermost.md) |
-| [Wiki.js](technologies/wikijs.md) | `collab` | Trial | [wikijs.md](technologies/wikijs.md) |
 
 ## Cards
 
