@@ -57,6 +57,8 @@ Codes from the standard that have no entry yet are not listed.
 | [Zitadel](technologies/zitadel.md) | `iam` | Assess | [zitadel.md](technologies/zitadel.md) | `b2b` |   |
 | [Teleport](technologies/teleport.md) | `iam` | Hold | [teleport.md](technologies/teleport.md) | `sso` |   |
 | [Open Policy Agent](technologies/opa.md) | `gov` | Adopt | [opa.md](technologies/opa.md) | `policy` |   |
+| [MkDocs](technologies/mkdocs.md) | `gov` | Trial | [mkdocs.md](technologies/mkdocs.md) | `adr`, `archrepo` |   |
+| [OpenFastTrace](technologies/openfasttrace.md) | `gov` | Trial | [openfasttrace.md](technologies/openfasttrace.md) | `archrepo`, `ci` |   |
 | [NetBox](technologies/netbox.md) | `gov` | Trial | [netbox.md](technologies/netbox.md) | `cmdb` |   |
 | [Opengrep](technologies/opengrep.md) | `sec` | Adopt | [opengrep.md](technologies/opengrep.md) | `scan` |   |
 | [Suricata](technologies/suricata.md) | `sec` | Adopt | [suricata.md](technologies/suricata.md) | `ids` |   |
