@@ -38,7 +38,7 @@ One technology per pull request. The maintainer decides and the History row reco
 
 ## What it is
 
-Two or three lines. Official site: [example.org](https://example.org/).
+Two or three lines. Official site: [mess.systems](https://mess.systems/) (replace with the project's own site).
 
 ## Why mess.systems uses it
 
@@ -81,7 +81,7 @@ The event that reopens the decision.
 
 Before you post, confirm that the text contains **none** of:
 
-- [ ] Real internal hostnames, domains, or zones (yours or anyone else's). Use `example.com`, `*.example`, `corp.lan`.
+- [ ] Real internal hostnames, domains, or zones (yours or anyone else's). Use names under `mess.systems`, such as `sso.iam.shared.svc.mess.systems` or `x.mess.systems`.
 - [ ] IP addresses, CIDRs, ports, or VPN/mesh details of real networks. If you need addresses, use the documentation ranges from [RFC 5737](https://www.rfc-editor.org/rfc/rfc5737) (`192.0.2.0/24`) or [RFC 3849](https://www.rfc-editor.org/rfc/rfc3849).
 - [ ] Secrets or anything that looks like one: tokens, API keys, passwords, private keys, connection strings, real secrets paths.
 - [ ] Real usernames, account IDs, group names, or email addresses of people or systems.
