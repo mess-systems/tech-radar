@@ -10,7 +10,7 @@ Open-source dashboards and visualisation platform (AGPL-3.0). Official site: [gr
 
 ## Why mess.systems uses it
 
-It is the example product for the `dashboards` capability throughout the standard: dashboard folders `<plane>-<domain>`, the `app-dashboards-admin` group, and the worked example's migration of `grafana.corp.lan`.
+It is the example product for the `dashboards` capability throughout the standard: dashboard folders `<plane>-<domain>`, the `app-dashboards-admin` group, and the worked example's migration of `dashboards.obs.shared.svc.mess.systems`.
 
 ## Alternatives considered
 
