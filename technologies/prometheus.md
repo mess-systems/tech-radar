@@ -25,7 +25,7 @@ Other metrics backends that accept the Prometheus data model. Chosen because the
 
 | Capabilities | Blueprints |
 |---|---|
-| [`metrics`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+| [`metrics`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 
 ## Review trigger
 

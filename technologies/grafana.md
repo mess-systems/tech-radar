@@ -26,7 +26,7 @@ Other dashboard tools. Adopt: default dashboards.
 
 | Capabilities | Blueprints |
 |---|---|
-| [`dashboards`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+| [`dashboards`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 
 ## Review trigger
 

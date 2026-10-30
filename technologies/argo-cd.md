@@ -25,7 +25,7 @@ Other GitOps controllers. Adopt: target product for GitOps.
 
 | Capabilities | Blueprints |
 |---|---|
-| [`gitops`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+| [`gitops`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 
 ## Review trigger
 

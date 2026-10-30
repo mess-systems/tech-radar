@@ -27,7 +27,7 @@ Running containers directly on VMs needs no extra forms beyond hosts. Chosen bec
 
 | Capabilities | Blueprints |
 |---|---|
-| [`k8s`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+| [`k8s`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 
 ## Review trigger
 

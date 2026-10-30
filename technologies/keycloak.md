@@ -2,7 +2,7 @@
 
 | Category | Ring | Kind |
 |---|---|---|
-| [`iam`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#42-domains) | [Trial](../README.md#rings) | Product |
+| [`iam`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#42-domains) | [Adopt](../README.md#rings) | Product |
 
 ## What it is
 
@@ -10,11 +10,13 @@ Open-source identity and access management server (Apache-2.0, a CNCF project). 
 
 ## Why mess.systems uses it
 
-It is the reference identity provider in the naming standard's examples: the `sso` capability (`sso.iam.shared`) and the `jwt-keycloak` auth mount. The standard treats the IdP as interchangeable.
+It carries the `sso` capability (`sso.iam.shared`) as the default identity provider (IdP), and it is the reference IdP in the naming standard's examples, including the `jwt-keycloak` auth mount. It covers what the blueprints need from an IdP: OpenID Connect for people and services, OAuth clients for agents behind the [AI gateway](agentgateway.md), and a dedicated provider option in agentgateway for its token checks. The standard still treats the IdP as interchangeable.
 
 ## Alternatives considered
 
-Other IdPs whose objects the standard maps (Entra ID, Okta, and similar). Trial because the standard names it as an illustration, not a requirement.
+- [Authentik](authentik.md): moved to Trial, limited to lab and learning environments, where its flows and built-in proxy and LDAP outposts are convenient.
+- [Zitadel](zitadel.md) (Assess): considered only for multi-tenant product identity.
+- Hosted IdPs whose objects the standard maps (Entra ID, Okta, and similar): mapped for compatibility, not chosen as the default.
 
 ## Where it applies
 
@@ -26,14 +28,15 @@ Other IdPs whose objects the standard maps (Entra ID, Okta, and similar). Trial 
 
 | Capabilities | Blueprints |
 |---|---|
-| [`sso`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+| [`sso`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 
 ## Review trigger
 
-After it has run the `sso` capability in a limited scope: promote to Adopt or move to Hold. Earlier on a license or maintenance change upstream.
+A license, governance, or maintenance change upstream; or a release that breaks OpenID Connect discovery or token validation for the gateway.
 
 ## History
 
 | Date | Ring | Change |
 |---|---|---|
 | 2026-10-09 | Trial | Initial entry. |
+| 2026-10-30 | Adopt | Default IdP for the `sso` capability; Authentik moves to Trial. |

@@ -2,7 +2,7 @@
 
 | Category | Ring | Kind |
 |---|---|---|
-| [`iam`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#42-domains) | [Adopt](../README.md#rings) | Product |
+| [`iam`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#42-domains) | [Trial](../README.md#rings) | Product |
 
 ## What it is
 
@@ -10,11 +10,11 @@ Open-source identity provider (OIDC, SAML, LDAP, proxy). Official site: [goauthe
 
 ## Why mess.systems uses it
 
-Carries the `sso` capability as the default IdP.
+Serves the `sso` capability in a limited scope: lab and learning environments, where its flows and built-in proxy and LDAP outposts are convenient. [Keycloak](keycloak.md) is the default IdP.
 
 ## Alternatives considered
 
-Keycloak (Trial), Zitadel (Assess). Chosen for flows and a built-in proxy and LDAP outpost.
+[Keycloak](keycloak.md) (Adopt) is the default for new work. [Zitadel](zitadel.md) (Assess) only for multi-tenant product identity.
 
 ## Where it applies
 
@@ -28,10 +28,11 @@ Keycloak (Trial), Zitadel (Assess). Chosen for flows and a built-in proxy and LD
 
 ## Review trigger
 
-A license or maintenance change upstream, or a better fit for the capability.
+A license or maintenance change upstream, or a need outside lab and learning environments: then move to Hold or record a reason for wider use.
 
 ## History
 
 | Date | Ring | Change |
 |---|---|---|
 | 2026-10-15 | Adopt | Initial entry. |
+| 2026-10-30 | Trial | Keycloak becomes the default IdP; Authentik stays for lab and learning environments. |

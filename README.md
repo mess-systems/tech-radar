@@ -44,12 +44,12 @@ Codes from the standard that have no entry yet are not listed.
 | Technology | Category | Ring | Card | Capabilities | Blueprints |
 |---|---|---|---|---|---|
 | [ACME](technologies/acme.md) | `iam` | Adopt | [acme.md](technologies/acme.md) | `pki` |   |
-| [Authentik](technologies/authentik.md) | `iam` | Adopt | [authentik.md](technologies/authentik.md) | `sso` |   |
+| [Keycloak](technologies/keycloak.md) | `iam` | Adopt | [keycloak.md](technologies/keycloak.md) | `sso` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 | [OpenBao](technologies/openbao.md) | `iam` | Adopt | [openbao.md](technologies/openbao.md) | `secrets` |   |
 | [OpenID Connect](technologies/oidc.md) | `iam` | Adopt | [oidc.md](technologies/oidc.md) | `sso` |   |
 | [SPIFFE](technologies/spiffe.md) | `iam` | Adopt | [spiffe.md](technologies/spiffe.md) | `spiffe` |   |
 | [WebAuthn](technologies/webauthn.md) | `iam` | Adopt | [webauthn.md](technologies/webauthn.md) | `sso` |   |
-| [Keycloak](technologies/keycloak.md) | `iam` | Trial | [keycloak.md](technologies/keycloak.md) | `sso` |   |
+| [Authentik](technologies/authentik.md) | `iam` | Trial | [authentik.md](technologies/authentik.md) | `sso` |   |
 | [Pomerium](technologies/pomerium.md) | `iam` | Trial | [pomerium.md](technologies/pomerium.md) | `sso` |   |
 | [SPIRE](technologies/spire.md) | `iam` | Trial | [spire.md](technologies/spire.md) | `endpoint`, `spiffe` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
 | [FreeIPA](technologies/freeipa.md) | `iam` | Assess | [freeipa.md](technologies/freeipa.md) | `directory` |   |
@@ -68,13 +68,15 @@ Codes from the standard that have no entry yet are not listed.
 | [Keenetic](technologies/keenetic.md) | `net` | Adopt | [keenetic.md](technologies/keenetic.md) | `firewall` |   |
 | [MikroTik](technologies/mikrotik.md) | `net` | Adopt | [mikrotik.md](technologies/mikrotik.md) | `firewall` |   |
 | [NetBird](technologies/netbird.md) | `net` | Adopt | [netbird.md](technologies/netbird.md) | `endpoint`, `mesh` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
+| [Traefik](technologies/traefik.md) | `net` | Adopt | [traefik.md](technologies/traefik.md) | `ingress` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 | [Ansible](technologies/ansible.md) | `infra` | Adopt | [ansible.md](technologies/ansible.md) | cross-cutting (platform) | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
-| [Kubernetes](technologies/kubernetes.md) | `infra` | Adopt | [kubernetes.md](technologies/kubernetes.md) | `k8s` |   |
+| [Kubernetes](technologies/kubernetes.md) | `infra` | Adopt | [kubernetes.md](technologies/kubernetes.md) | `k8s` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 | [OpenTofu](technologies/opentofu.md) | `infra` | Adopt | [opentofu.md](technologies/opentofu.md) | cross-cutting (platform) |   |
 | [Proxmox VE](technologies/proxmox-ve.md) | `infra` | Adopt | [proxmox-ve.md](technologies/proxmox-ve.md) | `compute` |   |
 | [RustFS](technologies/rustfs.md) | `infra` | Adopt | [rustfs.md](technologies/rustfs.md) | `storage` |   |
+| [kubernetes-mcp-server](technologies/kubernetes-mcp-server.md) | `infra` | Trial | [kubernetes-mcp-server.md](technologies/kubernetes-mcp-server.md) | `k8s` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 | [kind and k3s](technologies/k3s.md) | `infra` | Assess | [k3s.md](technologies/k3s.md) | `k8s` |   |
-| [Argo CD](technologies/argo-cd.md) | `sdlc` | Adopt | [argo-cd.md](technologies/argo-cd.md) | `gitops` |   |
+| [Argo CD](technologies/argo-cd.md) | `sdlc` | Adopt | [argo-cd.md](technologies/argo-cd.md) | `gitops` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 | [Forgejo](technologies/forgejo.md) | `sdlc` | Adopt | [forgejo.md](technologies/forgejo.md) | `git` |   |
 | [Harbor](technologies/harbor.md) | `sdlc` | Adopt | [harbor.md](technologies/harbor.md) | `oci` |   |
 | [NORA](technologies/nora.md) | `sdlc` | Adopt | [nora.md](technologies/nora.md) | `hub-cache` |   |
@@ -82,23 +84,24 @@ Codes from the standard that have no entry yet are not listed.
 | [Unleash](technologies/unleash.md) | `sdlc` | Adopt | [unleash.md](technologies/unleash.md) | `flags` |   |
 | [Jenkins](technologies/jenkins.md) | `sdlc` | Assess | [jenkins.md](technologies/jenkins.md) | `ci` |   |
 | [Alertmanager](technologies/alertmanager.md) | `obs` | Adopt | [alertmanager.md](technologies/alertmanager.md) | `alerts` |   |
-| [Grafana](technologies/grafana.md) | `obs` | Adopt | [grafana.md](technologies/grafana.md) | `dashboards` |   |
-| [Grafana Loki](technologies/loki.md) | `obs` | Adopt | [loki.md](technologies/loki.md) | `logs` |   |
+| [Grafana](technologies/grafana.md) | `obs` | Adopt | [grafana.md](technologies/grafana.md) | `dashboards` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
+| [Grafana Loki](technologies/loki.md) | `obs` | Adopt | [loki.md](technologies/loki.md) | `logs` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 | [Grafana Tempo](technologies/tempo.md) | `obs` | Adopt | [tempo.md](technologies/tempo.md) | `traces` |   |
 | [OpenLLMetry](technologies/openllmetry.md) | `obs` | Adopt | [openllmetry.md](technologies/openllmetry.md) | `llm-traces` |   |
 | [OpenTelemetry](technologies/opentelemetry.md) | `obs` | Adopt | [opentelemetry.md](technologies/opentelemetry.md) | cross-cutting (platform) |   |
-| [Prometheus](technologies/prometheus.md) | `obs` | Adopt | [prometheus.md](technologies/prometheus.md) | `metrics` |   |
+| [Prometheus](technologies/prometheus.md) | `obs` | Adopt | [prometheus.md](technologies/prometheus.md) | `metrics` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
+| [mcp-grafana](technologies/mcp-grafana.md) | `obs` | Trial | [mcp-grafana.md](technologies/mcp-grafana.md) | `dashboards` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 | [Telegraf](technologies/telegraf.md) | `obs` | Trial | [telegraf.md](technologies/telegraf.md) | `metrics` |   |
 | [Zabbix](technologies/zabbix.md) | `obs` | Assess | [zabbix.md](technologies/zabbix.md) | `alerts` |   |
 | [CubeSandbox](technologies/cubesandbox.md) | `adlc` | Adopt | [cubesandbox.md](technologies/cubesandbox.md) | `sandbox` |   |
 | [DeepEval](technologies/deepeval.md) | `adlc` | Adopt | [deepeval.md](technologies/deepeval.md) | `evals` |   |
 | [agentregistry](technologies/agentregistry.md) | `adlc` | Trial | [agentregistry.md](technologies/agentregistry.md) | `registry` |   |
 | [promptfoo](technologies/promptfoo.md) | `adlc` | Trial | [promptfoo.md](technologies/promptfoo.md) | `evals` |   |
-| [agentgateway](technologies/agentgateway.md) | `ai` | Adopt | [agentgateway.md](technologies/agentgateway.md) | `gateway` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
+| [agentgateway](technologies/agentgateway.md) | `ai` | Adopt | [agentgateway.md](technologies/agentgateway.md) | `gateway` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint), [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 | [Langfuse](technologies/langfuse.md) | `ai` | Adopt | [langfuse.md](technologies/langfuse.md) | `llm-traces` |   |
 | [LangGraph](technologies/langgraph.md) | `ai` | Adopt | [langgraph.md](technologies/langgraph.md) | `inference` |   |
 | [LiveKit](technologies/livekit.md) | `ai` | Adopt | [livekit.md](technologies/livekit.md) | `stt` |   |
-| [Model Context Protocol](technologies/mcp.md) | `ai` | Adopt | [mcp.md](technologies/mcp.md) | cross-cutting (platform) |   |
+| [Model Context Protocol](technologies/mcp.md) | `ai` | Adopt | [mcp.md](technologies/mcp.md) | cross-cutting (platform) | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 | [TinyFish](technologies/tinyfish.md) | `ai` | Adopt | [tinyfish.md](technologies/tinyfish.md) | `inference` |   |
 | [Unsloth](technologies/unsloth.md) | `ai` | Adopt | [unsloth.md](technologies/unsloth.md) | `inference` |   |
 | [vLLM](technologies/vllm.md) | `ai` | Adopt | [vllm.md](technologies/vllm.md) | `inference` |   |

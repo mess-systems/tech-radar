@@ -25,7 +25,7 @@ Provider-specific tool-calling integrations. Chosen because one protocol lets th
 
 | Capabilities | Blueprints |
 |---|---|
-| cross-cutting (platform) | none yet |
+| cross-cutting (platform) | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 
 ## Review trigger
 

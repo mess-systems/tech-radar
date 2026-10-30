@@ -14,7 +14,7 @@ Considered for customer and B2B identity.
 
 ## Alternatives considered
 
-Authentik (Adopt). Assess: needed only for multi-tenant product identity.
+[Keycloak](keycloak.md) (Adopt). Assess: needed only for multi-tenant product identity.
 
 ## Where it applies
 
