@@ -55,6 +55,7 @@ Codes from the standard that have no entry yet are not listed.
 | [FreeIPA](technologies/freeipa.md) | `iam` | Assess | [freeipa.md](technologies/freeipa.md) | `directory` |   |
 | [Vaultwarden](technologies/vaultwarden.md) | `iam` | Assess | [vaultwarden.md](technologies/vaultwarden.md) | `passwords` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
 | [Zitadel](technologies/zitadel.md) | `iam` | Assess | [zitadel.md](technologies/zitadel.md) | `b2b` |   |
+| [StrongDM](technologies/strongdm.md) | `iam` | Hold | [strongdm.md](technologies/strongdm.md) | `sso` |   |
 | [Teleport](technologies/teleport.md) | `iam` | Hold | [teleport.md](technologies/teleport.md) | `sso` |   |
 | [Open Policy Agent](technologies/opa.md) | `gov` | Adopt | [opa.md](technologies/opa.md) | `policy` |   |
 | [MkDocs](technologies/mkdocs.md) | `gov` | Trial | [mkdocs.md](technologies/mkdocs.md) | `adr`, `archrepo` |   |
@@ -68,7 +69,9 @@ Codes from the standard that have no entry yet are not listed.
 | [Keenetic](technologies/keenetic.md) | `net` | Adopt | [keenetic.md](technologies/keenetic.md) | `firewall` |   |
 | [MikroTik](technologies/mikrotik.md) | `net` | Adopt | [mikrotik.md](technologies/mikrotik.md) | `firewall` |   |
 | [NetBird](technologies/netbird.md) | `net` | Adopt | [netbird.md](technologies/netbird.md) | `endpoint`, `mesh` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
+| [nftables](technologies/nftables.md) | `net` | Adopt | [nftables.md](technologies/nftables.md) | `firewall` | [`net-mesh`](https://github.com/mess-systems/blueprints/tree/main/net-mesh), [`data-sql-access`](https://github.com/mess-systems/blueprints/tree/main/data-sql-access) |
 | [Traefik](technologies/traefik.md) | `net` | Adopt | [traefik.md](technologies/traefik.md) | `ingress` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
+| [WireGuard](technologies/wireguard.md) | `net` | Adopt | [wireguard.md](technologies/wireguard.md) | `mesh` | [`net-mesh`](https://github.com/mess-systems/blueprints/tree/main/net-mesh), [`data-sql-access`](https://github.com/mess-systems/blueprints/tree/main/data-sql-access) |
 | [Ansible](technologies/ansible.md) | `infra` | Adopt | [ansible.md](technologies/ansible.md) | cross-cutting (platform) | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
 | [Kubernetes](technologies/kubernetes.md) | `infra` | Adopt | [kubernetes.md](technologies/kubernetes.md) | `k8s` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 | [OpenTofu](technologies/opentofu.md) | `infra` | Adopt | [opentofu.md](technologies/opentofu.md) | cross-cutting (platform) |   |
@@ -120,6 +123,7 @@ Codes from the standard that have no entry yet are not listed.
 | [Apache CouchDB](technologies/couchdb.md) | `data` | Adopt | [couchdb.md](technologies/couchdb.md) | `docstore` |   |
 | [Apache Superset](technologies/superset.md) | `data` | Adopt | [superset.md](technologies/superset.md) | `bi` |   |
 | [ClickHouse](technologies/clickhouse.md) | `data` | Adopt | [clickhouse.md](technologies/clickhouse.md) | `warehouse` |   |
+| [DBeaver Community](technologies/dbeaver.md) | `data` | Adopt | [dbeaver.md](technologies/dbeaver.md) | `sql` | [`data-sql-access`](https://github.com/mess-systems/blueprints/tree/main/data-sql-access) |
 | [dbt](technologies/dbt.md) | `data` | Adopt | [dbt.md](technologies/dbt.md) | `transform` |   |
 | [DuckDB](technologies/duckdb.md) | `data` | Adopt | [duckdb.md](technologies/duckdb.md) | `sql` |   |
 | [MarkItDown](technologies/markitdown.md) | `data` | Adopt | [markitdown.md](technologies/markitdown.md) | `convert` |   |
@@ -127,6 +131,7 @@ Codes from the standard that have no entry yet are not listed.
 | [PostgreSQL](technologies/postgresql.md) | `data` | Adopt | [postgresql.md](technologies/postgresql.md) | cross-cutting (platform) |   |
 | [S3 API](technologies/s3.md) | `data` | Adopt | [s3.md](technologies/s3.md) | `objects` |   |
 | [Temporal](technologies/temporal.md) | `data` | Adopt | [temporal.md](technologies/temporal.md) | `orchestrate` |   |
+| [DataGrip](technologies/datagrip.md) | `data` | Assess | [datagrip.md](technologies/datagrip.md) | `sql` | [`data-sql-access`](https://github.com/mess-systems/blueprints/tree/main/data-sql-access) |
 | [Qdrant](technologies/qdrant.md) | `data` | Assess | [qdrant.md](technologies/qdrant.md) | `kb` |   |
 | [SurrealDB](technologies/surrealdb.md) | `data` | Assess | [surrealdb.md](technologies/surrealdb.md) | `docstore` |   |
 | [DataHub](technologies/datahub.md) | `data` | Hold | [datahub.md](technologies/datahub.md) | `data-catalog` |   |
@@ -135,6 +140,7 @@ Codes from the standard that have no entry yet are not listed.
 | [GLPI](technologies/glpi.md) | `itsm` | Hold | [glpi.md](technologies/glpi.md) | `service-desk` |   |
 | [Matrix](technologies/matrix.md) | `collab` | Adopt | [matrix.md](technologies/matrix.md) | `chat` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
 | [Mattermost](technologies/mattermost.md) | `collab` | Trial | [mattermost.md](technologies/mattermost.md) | `chat` |   |
+| [Docker](technologies/docker.md) | `device` | Adopt | [docker.md](technologies/docker.md) | `endpoint` |   |
 | [Kasm Workspaces](technologies/kasm-workspaces.md) | `device` | Adopt | [kasm-workspaces.md](technologies/kasm-workspaces.md) | `vdi` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
 | [RustDesk](technologies/rustdesk.md) | `device` | Adopt | [rustdesk.md](technologies/rustdesk.md) | `endpoint` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
 | [WinBoat](technologies/winboat.md) | `device` | Adopt | [winboat.md](technologies/winboat.md) | `endpoint` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
