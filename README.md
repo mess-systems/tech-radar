@@ -131,6 +131,7 @@ Codes from the standard that have no entry yet are not listed.
 | [PostgreSQL](technologies/postgresql.md) | `data` | Adopt | [postgresql.md](technologies/postgresql.md) | cross-cutting (platform) |   |
 | [S3 API](technologies/s3.md) | `data` | Adopt | [s3.md](technologies/s3.md) | `objects` |   |
 | [Temporal](technologies/temporal.md) | `data` | Adopt | [temporal.md](technologies/temporal.md) | `orchestrate` |   |
+| [Cube](technologies/cube.md) | `data` | Trial | [cube.md](technologies/cube.md) | `semantic` | [`semantic-layer-cube`](https://github.com/mess-systems/blueprints/tree/main/semantic-layer-cube) |
 | [DataGrip](technologies/datagrip.md) | `data` | Assess | [datagrip.md](technologies/datagrip.md) | `sql` | [`data-sql-access`](https://github.com/mess-systems/blueprints/tree/main/data-sql-access) |
 | [Qdrant](technologies/qdrant.md) | `data` | Assess | [qdrant.md](technologies/qdrant.md) | `kb` |   |
 | [SurrealDB](technologies/surrealdb.md) | `data` | Assess | [surrealdb.md](technologies/surrealdb.md) | `docstore` |   |
