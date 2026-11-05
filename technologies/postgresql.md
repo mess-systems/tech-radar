@@ -10,7 +10,7 @@ Open-source relational database (PostgreSQL License). Official site: [www.postgr
 
 ## Why mess.systems uses it
 
-Runs with the pgvector extension for embeddings and the CloudNativePG operator on Kubernetes.
+Runs with the pgvector extension for embeddings and the [CloudNativePG](cloudnative-pg.md) operator on Kubernetes.
 
 The standard defines dedicated Postgres forms: databases and schemas `<plane>_<domain>_<capability>_<env>` and roles `svc_<plane>_<domain>_<product>`. It provides the `sql` capability in the worked example.
 
@@ -40,3 +40,4 @@ A change to the database forms or role rules.
 |---|---|---|
 | 2026-10-09 | Adopt | Initial entry. |
 | 2026-10-15 | Adopt | pgvector and CloudNativePG noted as the standard setup. |
+| 2026-11-05 | Adopt | Link to the CloudNativePG card (Adopt). |

@@ -73,6 +73,7 @@ Codes from the standard that have no entry yet are not listed.
 | [Traefik](technologies/traefik.md) | `net` | Adopt | [traefik.md](technologies/traefik.md) | `ingress` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 | [WireGuard](technologies/wireguard.md) | `net` | Adopt | [wireguard.md](technologies/wireguard.md) | `mesh` | [`net-mesh`](https://github.com/mess-systems/blueprints/tree/main/net-mesh), [`data-sql-access`](https://github.com/mess-systems/blueprints/tree/main/data-sql-access) |
 | [Ansible](technologies/ansible.md) | `infra` | Adopt | [ansible.md](technologies/ansible.md) | cross-cutting (platform) | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
+| [CloudNativePG](technologies/cloudnative-pg.md) | `infra` | Adopt | [cloudnative-pg.md](technologies/cloudnative-pg.md) | `k8s`, `backup` |   |
 | [Kubernetes](technologies/kubernetes.md) | `infra` | Adopt | [kubernetes.md](technologies/kubernetes.md) | `k8s` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 | [OpenTofu](technologies/opentofu.md) | `infra` | Adopt | [opentofu.md](technologies/opentofu.md) | cross-cutting (platform) |   |
 | [Proxmox VE](technologies/proxmox-ve.md) | `infra` | Adopt | [proxmox-ve.md](technologies/proxmox-ve.md) | `compute` |   |
