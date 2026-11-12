@@ -80,6 +80,7 @@ Codes from the standard that have no entry yet are not listed.
 | [RustFS](technologies/rustfs.md) | `infra` | Adopt | [rustfs.md](technologies/rustfs.md) | `storage` |   |
 | [kubernetes-mcp-server](technologies/kubernetes-mcp-server.md) | `infra` | Trial | [kubernetes-mcp-server.md](technologies/kubernetes-mcp-server.md) | `k8s` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 | [kind and k3s](technologies/k3s.md) | `infra` | Assess | [k3s.md](technologies/k3s.md) | `k8s` |   |
+| [Kata Containers](technologies/kata-containers.md) | `infra` | Assess | [kata-containers.md](technologies/kata-containers.md) | `k8s` | [`sdlc-ci-runners`](https://github.com/mess-systems/blueprints/tree/main/sdlc-ci-runners) |
 | [Argo CD](technologies/argo-cd.md) | `sdlc` | Adopt | [argo-cd.md](technologies/argo-cd.md) | `gitops` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 | [Forgejo](technologies/forgejo.md) | `sdlc` | Adopt | [forgejo.md](technologies/forgejo.md) | `git` |   |
 | [Harbor](technologies/harbor.md) | `sdlc` | Adopt | [harbor.md](technologies/harbor.md) | `oci` |   |
@@ -87,10 +88,12 @@ Codes from the standard that have no entry yet are not listed.
 | [SonarQube](technologies/sonarqube.md) | `sdlc` | Adopt | [sonarqube.md](technologies/sonarqube.md) | `scan` |   |
 | [Unleash](technologies/unleash.md) | `sdlc` | Adopt | [unleash.md](technologies/unleash.md) | `flags` |   |
 | [Jenkins](technologies/jenkins.md) | `sdlc` | Assess | [jenkins.md](technologies/jenkins.md) | `ci` |   |
+| [Actions Runner Controller](technologies/actions-runner-controller.md) | `sdlc` | Assess | [actions-runner-controller.md](technologies/actions-runner-controller.md) | `ci` | [`sdlc-ci-runners`](https://github.com/mess-systems/blueprints/tree/main/sdlc-ci-runners) |
+| [BuildKit](technologies/buildkit.md) | `sdlc` | Assess | [buildkit.md](technologies/buildkit.md) | `ci` | [`sdlc-ci-runners`](https://github.com/mess-systems/blueprints/tree/main/sdlc-ci-runners) |
 | [Alertmanager](technologies/alertmanager.md) | `obs` | Adopt | [alertmanager.md](technologies/alertmanager.md) | `alerts` |   |
 | [Grafana](technologies/grafana.md) | `obs` | Adopt | [grafana.md](technologies/grafana.md) | `dashboards` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 | [Grafana Loki](technologies/loki.md) | `obs` | Adopt | [loki.md](technologies/loki.md) | `logs` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
-| [Grafana Tempo](technologies/tempo.md) | `obs` | Adopt | [tempo.md](technologies/tempo.md) | `traces` |   |
+| [Grafana Tempo](technologies/tempo.md) | `obs` | Adopt | [tempo.md](technologies/tempo.md) | `traces` | [`adlc-agent-evals`](https://github.com/mess-systems/blueprints/tree/main/adlc-agent-evals) |
 | [OpenLLMetry](technologies/openllmetry.md) | `obs` | Adopt | [openllmetry.md](technologies/openllmetry.md) | `llm-traces` |   |
 | [OpenTelemetry](technologies/opentelemetry.md) | `obs` | Adopt | [opentelemetry.md](technologies/opentelemetry.md) | cross-cutting (platform) |   |
 | [Prometheus](technologies/prometheus.md) | `obs` | Adopt | [prometheus.md](technologies/prometheus.md) | `metrics` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
@@ -98,11 +101,12 @@ Codes from the standard that have no entry yet are not listed.
 | [Telegraf](technologies/telegraf.md) | `obs` | Trial | [telegraf.md](technologies/telegraf.md) | `metrics` |   |
 | [Zabbix](technologies/zabbix.md) | `obs` | Assess | [zabbix.md](technologies/zabbix.md) | `alerts` |   |
 | [CubeSandbox](technologies/cubesandbox.md) | `adlc` | Adopt | [cubesandbox.md](technologies/cubesandbox.md) | `sandbox` |   |
-| [DeepEval](technologies/deepeval.md) | `adlc` | Adopt | [deepeval.md](technologies/deepeval.md) | `evals` |   |
+| [DeepEval](technologies/deepeval.md) | `adlc` | Adopt | [deepeval.md](technologies/deepeval.md) | `evals` | [`adlc-agent-evals`](https://github.com/mess-systems/blueprints/tree/main/adlc-agent-evals) |
 | [agentregistry](technologies/agentregistry.md) | `adlc` | Trial | [agentregistry.md](technologies/agentregistry.md) | `registry` |   |
-| [promptfoo](technologies/promptfoo.md) | `adlc` | Trial | [promptfoo.md](technologies/promptfoo.md) | `evals` |   |
-| [agentgateway](technologies/agentgateway.md) | `ai` | Adopt | [agentgateway.md](technologies/agentgateway.md) | `gateway` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint), [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
-| [Langfuse](technologies/langfuse.md) | `ai` | Adopt | [langfuse.md](technologies/langfuse.md) | `llm-traces` |   |
+| [promptfoo](technologies/promptfoo.md) | `adlc` | Trial | [promptfoo.md](technologies/promptfoo.md) | `evals` | [`adlc-agent-evals`](https://github.com/mess-systems/blueprints/tree/main/adlc-agent-evals) |
+| [agentevals](technologies/agentevals.md) | `adlc` | Assess | [agentevals.md](technologies/agentevals.md) | `evals` | [`adlc-agent-evals`](https://github.com/mess-systems/blueprints/tree/main/adlc-agent-evals) |
+| [agentgateway](technologies/agentgateway.md) | `ai` | Adopt | [agentgateway.md](technologies/agentgateway.md) | `gateway` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint), [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly), [`adlc-agent-evals`](https://github.com/mess-systems/blueprints/tree/main/adlc-agent-evals) |
+| [Langfuse](technologies/langfuse.md) | `ai` | Adopt | [langfuse.md](technologies/langfuse.md) | `llm-traces` | [`adlc-agent-evals`](https://github.com/mess-systems/blueprints/tree/main/adlc-agent-evals) |
 | [LangGraph](technologies/langgraph.md) | `ai` | Adopt | [langgraph.md](technologies/langgraph.md) | `inference` |   |
 | [LiveKit](technologies/livekit.md) | `ai` | Adopt | [livekit.md](technologies/livekit.md) | `stt` |   |
 | [Model Context Protocol](technologies/mcp.md) | `ai` | Adopt | [mcp.md](technologies/mcp.md) | cross-cutting (platform) | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
@@ -110,7 +114,7 @@ Codes from the standard that have no entry yet are not listed.
 | [Unsloth](technologies/unsloth.md) | `ai` | Adopt | [unsloth.md](technologies/unsloth.md) | `inference` |   |
 | [vLLM](technologies/vllm.md) | `ai` | Adopt | [vllm.md](technologies/vllm.md) | `inference` |   |
 | [DeepSeek Harness](technologies/deepseek-harness.md) | `ai` | Trial | [deepseek-harness.md](technologies/deepseek-harness.md) | `inference` |   |
-| [kagent](technologies/kagent.md) | `ai` | Trial | [kagent.md](technologies/kagent.md) | `inference` |   |
+| [kagent](technologies/kagent.md) | `ai` | Trial | [kagent.md](technologies/kagent.md) | `inference` | [`adlc-agent-evals`](https://github.com/mess-systems/blueprints/tree/main/adlc-agent-evals) |
 | [Langflow](technologies/langflow.md) | `ai` | Trial | [langflow.md](technologies/langflow.md) | `inference` |   |
 | [Laya](technologies/laya.md) | `ai` | Trial | [laya.md](technologies/laya.md) | `guard` |   |
 | [agentdesktop](technologies/agentdesktop.md) | `ai` | Trial | [agentdesktop.md](technologies/agentdesktop.md) | `endpoint` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |

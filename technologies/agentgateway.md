@@ -12,6 +12,8 @@ Open-source gateway (Apache-2.0, written in Rust) for AI traffic: agent-to-LLM, 
 
 It is the target product for the `gateway` capability (`gateway.ai.corp`): the single point through which people, services, and agents reach models, MCP tools, and other agents. One gateway for all three kinds of traffic means one place for client identities, policies, keys, budgets, and audit, instead of a separate proxy per protocol. Vendor-neutral governance and a permissive license keep the choice open for anyone who reuses the standard.
 
+In the [`adlc-agent-evals`](https://github.com/mess-systems/blueprints/tree/main/adlc-agent-evals) blueprint its Prometheus metrics (`gen_ai_client_token_usage`, `gen_ai_client_cost`) give tokens and cost per agent, and its request log is one of the audit sources. In a closed network the model price catalogue has to be provided locally.
+
 ## Alternatives considered
 
 - [LiteLLM](litellm.md): a mature LLM gateway with an OpenAI-compatible API, virtual keys, and budgets. Its repository is MIT-licensed except for an `enterprise/` directory under a separate license. Moved to Hold: mess.systems wants one gateway for LLM, MCP, and A2A traffic under neutral foundation governance.
@@ -31,7 +33,7 @@ The naming standard uses agentgateway as the example product for the `gateway` c
 
 | Capabilities | Blueprints |
 |---|---|
-| [`gateway`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint), [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
+| [`gateway`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint), [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly), [`adlc-agent-evals`](https://github.com/mess-systems/blueprints/tree/main/adlc-agent-evals) |
 
 ## Review trigger
 
@@ -42,3 +44,4 @@ A license or governance change of the project; a breaking change in MCP or A2A s
 | Date | Ring | Change |
 |---|---|---|
 | 2026-10-10 | Adopt | Initial entry: target product for the `gateway` capability, replacing LiteLLM. |
+| 2026-11-12 | Adopt | Linked from `adlc-agent-evals`. |

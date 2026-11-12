@@ -12,6 +12,8 @@ Open-source Kubernetes-native framework for AI agents (CNCF sandbox). Official s
 
 Agents as Kubernetes workloads.
 
+Agents export OpenTelemetry traces (values `otel.tracing.enabled` and `otel.tracing.exporter.otlp.endpoint`). kagent 1.0.0 (2026-11-09) moved the Python runtimes to upstream GenAI instrumentation and dropped the legacy ADK spans, so dashboards should be built after the upgrade. See [`adlc-agent-evals`](https://github.com/mess-systems/blueprints/tree/main/adlc-agent-evals).
+
 ## Alternatives considered
 
 LangGraph services. Trial: limited scope.
@@ -24,7 +26,7 @@ LangGraph services. Trial: limited scope.
 
 | Capabilities | Blueprints |
 |---|---|
-| [`inference`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+| [`inference`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | [`adlc-agent-evals`](https://github.com/mess-systems/blueprints/tree/main/adlc-agent-evals) |
 
 ## Review trigger
 
@@ -35,3 +37,4 @@ After it has carried the capability in a limited scope: promote to Adopt or move
 | Date | Ring | Change |
 |---|---|---|
 | 2026-10-15 | Trial | Initial entry. |
+| 2026-11-12 | Trial | Tracing notes; linked from `adlc-agent-evals`. |

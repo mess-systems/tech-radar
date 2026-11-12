@@ -14,7 +14,7 @@ Carries the `sandbox` capability for agent code execution.
 
 ## Alternatives considered
 
-E2B, gVisor containers. Chosen for hardware isolation and self-hosting.
+E2B, gVisor containers. Chosen for hardware isolation and self-hosting. It is not a CI runner: it does not register GitHub runners or scale on the job queue, so the [`sdlc-ci-runners`](https://github.com/mess-systems/blueprints/tree/main/sdlc-ci-runners) blueprint isolates CI jobs with Kata Containers instead.
 
 ## Where it applies
 

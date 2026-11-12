@@ -12,6 +12,8 @@ Open-source framework for evaluating LLM applications and agents (Apache-2.0). O
 
 Carries the `evals` capability as test cases for LLM and agent behaviour in CI.
 
+In the [`adlc-agent-evals`](https://github.com/mess-systems/blueprints/tree/main/adlc-agent-evals) blueprint it is the pytest option for the CI gate, next to promptfoo.
+
 ## Alternatives considered
 
 promptfoo, Ragas. Chosen for pytest-style tests that sit next to code; promptfoo stays in Trial for red teaming.
@@ -24,7 +26,7 @@ promptfoo, Ragas. Chosen for pytest-style tests that sit next to code; promptfoo
 
 | Capabilities | Blueprints |
 |---|---|
-| [`evals`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+| [`evals`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | [`adlc-agent-evals`](https://github.com/mess-systems/blueprints/tree/main/adlc-agent-evals) |
 
 ## Review trigger
 
@@ -35,3 +37,4 @@ A license or maintenance change upstream, or a better fit for the capability.
 | Date | Ring | Change |
 |---|---|---|
 | 2026-10-15 | Adopt | Initial entry. |
+| 2026-11-12 | Adopt | Linked from `adlc-agent-evals`. |
