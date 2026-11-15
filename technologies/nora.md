@@ -24,7 +24,7 @@ Nexus, Artifactory. Chosen for a small footprint; Harbor stays for OCI.
 
 | Capabilities | Blueprints |
 |---|---|
-| [`hub-cache`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+| [`hub-cache`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
 
 ## Review trigger
 
@@ -35,3 +35,4 @@ A license or maintenance change upstream, or a better fit for the capability.
 | Date | Ring | Change |
 |---|---|---|
 | 2026-10-15 | Adopt | Initial entry. |
+| 2026-11-15 | Adopt | Language dependencies for Nix-based environments (device-workstation-stages). |

@@ -24,7 +24,7 @@ Other configuration management tools. Chosen because the standard already fixes 
 
 | Capabilities | Blueprints |
 |---|---|
-| cross-cutting (platform) | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
+| cross-cutting (platform) | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint), [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
 
 ## Review trigger
 
@@ -35,3 +35,4 @@ A change to the inventory form, or a decision to manage hosts only through image
 | Date | Ring | Change |
 |---|---|---|
 | 2026-10-09 | Adopt | Initial entry. |
+| 2026-11-15 | Adopt | Workstation role applied with ansible-pull (device-workstation-stages). |

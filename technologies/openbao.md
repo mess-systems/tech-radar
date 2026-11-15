@@ -28,7 +28,7 @@ HashiCorp Vault: same API and policy model, but no longer under an open-source l
 
 | Capabilities | Blueprints |
 |---|---|
-| [`secrets`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+| [`secrets`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
 
 ## Review trigger
 
@@ -40,3 +40,4 @@ A license or governance change upstream, loss of API compatibility with the poli
 |---|---|---|
 | 2026-10-09 | Adopt | Initial entry. |
 | 2026-10-15 | Adopt | HashiCorp Vault entry removed from the radar. |
+| 2026-11-15 | Adopt | Restic repository password and chezmoi templates (device-workstation-stages). |

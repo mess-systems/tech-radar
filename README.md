@@ -45,7 +45,7 @@ Codes from the standard that have no entry yet are not listed.
 |---|---|---|---|---|---|
 | [ACME](technologies/acme.md) | `iam` | Adopt | [acme.md](technologies/acme.md) | `pki` |   |
 | [Keycloak](technologies/keycloak.md) | `iam` | Adopt | [keycloak.md](technologies/keycloak.md) | `sso` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
-| [OpenBao](technologies/openbao.md) | `iam` | Adopt | [openbao.md](technologies/openbao.md) | `secrets` |   |
+| [OpenBao](technologies/openbao.md) | `iam` | Adopt | [openbao.md](technologies/openbao.md) | `secrets` | [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
 | [OpenID Connect](technologies/oidc.md) | `iam` | Adopt | [oidc.md](technologies/oidc.md) | `sso` |   |
 | [SPIFFE](technologies/spiffe.md) | `iam` | Adopt | [spiffe.md](technologies/spiffe.md) | `spiffe` |   |
 | [WebAuthn](technologies/webauthn.md) | `iam` | Adopt | [webauthn.md](technologies/webauthn.md) | `sso` |   |
@@ -72,31 +72,34 @@ Codes from the standard that have no entry yet are not listed.
 | [nftables](technologies/nftables.md) | `net` | Adopt | [nftables.md](technologies/nftables.md) | `firewall` | [`net-mesh`](https://github.com/mess-systems/blueprints/tree/main/net-mesh), [`data-sql-access`](https://github.com/mess-systems/blueprints/tree/main/data-sql-access) |
 | [Traefik](technologies/traefik.md) | `net` | Adopt | [traefik.md](technologies/traefik.md) | `ingress` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 | [WireGuard](technologies/wireguard.md) | `net` | Adopt | [wireguard.md](technologies/wireguard.md) | `mesh` | [`net-mesh`](https://github.com/mess-systems/blueprints/tree/main/net-mesh), [`data-sql-access`](https://github.com/mess-systems/blueprints/tree/main/data-sql-access) |
-| [Ansible](technologies/ansible.md) | `infra` | Adopt | [ansible.md](technologies/ansible.md) | cross-cutting (platform) | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
+| [Ansible](technologies/ansible.md) | `infra` | Adopt | [ansible.md](technologies/ansible.md) | cross-cutting (platform) | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint), [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
 | [CloudNativePG](technologies/cloudnative-pg.md) | `infra` | Adopt | [cloudnative-pg.md](technologies/cloudnative-pg.md) | `k8s`, `backup` |   |
 | [Kubernetes](technologies/kubernetes.md) | `infra` | Adopt | [kubernetes.md](technologies/kubernetes.md) | `k8s` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 | [OpenTofu](technologies/opentofu.md) | `infra` | Adopt | [opentofu.md](technologies/opentofu.md) | cross-cutting (platform) |   |
-| [Proxmox VE](technologies/proxmox-ve.md) | `infra` | Adopt | [proxmox-ve.md](technologies/proxmox-ve.md) | `compute` |   |
-| [RustFS](technologies/rustfs.md) | `infra` | Adopt | [rustfs.md](technologies/rustfs.md) | `storage` |   |
+| [Proxmox VE](technologies/proxmox-ve.md) | `infra` | Adopt | [proxmox-ve.md](technologies/proxmox-ve.md) | `compute` | [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
+| [RustFS](technologies/rustfs.md) | `infra` | Adopt | [rustfs.md](technologies/rustfs.md) | `storage` | [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
 | [kubernetes-mcp-server](technologies/kubernetes-mcp-server.md) | `infra` | Trial | [kubernetes-mcp-server.md](technologies/kubernetes-mcp-server.md) | `k8s` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
+| [Restic](technologies/restic.md) | `infra` | Trial | [restic.md](technologies/restic.md) | `backup` | [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
 | [kind and k3s](technologies/k3s.md) | `infra` | Assess | [k3s.md](technologies/k3s.md) | `k8s` |   |
 | [Kata Containers](technologies/kata-containers.md) | `infra` | Assess | [kata-containers.md](technologies/kata-containers.md) | `k8s` | [`sdlc-ci-runners`](https://github.com/mess-systems/blueprints/tree/main/sdlc-ci-runners) |
 | [Argo CD](technologies/argo-cd.md) | `sdlc` | Adopt | [argo-cd.md](technologies/argo-cd.md) | `gitops` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 | [Forgejo](technologies/forgejo.md) | `sdlc` | Adopt | [forgejo.md](technologies/forgejo.md) | `git` |   |
 | [Harbor](technologies/harbor.md) | `sdlc` | Adopt | [harbor.md](technologies/harbor.md) | `oci` |   |
-| [NORA](technologies/nora.md) | `sdlc` | Adopt | [nora.md](technologies/nora.md) | `hub-cache` |   |
+| [NORA](technologies/nora.md) | `sdlc` | Adopt | [nora.md](technologies/nora.md) | `hub-cache` | [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
 | [SonarQube](technologies/sonarqube.md) | `sdlc` | Adopt | [sonarqube.md](technologies/sonarqube.md) | `scan` |   |
 | [Unleash](technologies/unleash.md) | `sdlc` | Adopt | [unleash.md](technologies/unleash.md) | `flags` |   |
+| [Dev Containers](technologies/dev-containers.md) | `sdlc` | Trial | [dev-containers.md](technologies/dev-containers.md) | `endpoint`, `ci` | [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
 | [Jenkins](technologies/jenkins.md) | `sdlc` | Assess | [jenkins.md](technologies/jenkins.md) | `ci` |   |
 | [Actions Runner Controller](technologies/actions-runner-controller.md) | `sdlc` | Assess | [actions-runner-controller.md](technologies/actions-runner-controller.md) | `ci` | [`sdlc-ci-runners`](https://github.com/mess-systems/blueprints/tree/main/sdlc-ci-runners) |
 | [BuildKit](technologies/buildkit.md) | `sdlc` | Assess | [buildkit.md](technologies/buildkit.md) | `ci` | [`sdlc-ci-runners`](https://github.com/mess-systems/blueprints/tree/main/sdlc-ci-runners) |
+| [Attic](technologies/attic.md) | `sdlc` | Assess | [attic.md](technologies/attic.md) | `packages` | [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
 | [Alertmanager](technologies/alertmanager.md) | `obs` | Adopt | [alertmanager.md](technologies/alertmanager.md) | `alerts` |   |
 | [Grafana](technologies/grafana.md) | `obs` | Adopt | [grafana.md](technologies/grafana.md) | `dashboards` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 | [Grafana Loki](technologies/loki.md) | `obs` | Adopt | [loki.md](technologies/loki.md) | `logs` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 | [Grafana Tempo](technologies/tempo.md) | `obs` | Adopt | [tempo.md](technologies/tempo.md) | `traces` | [`adlc-agent-evals`](https://github.com/mess-systems/blueprints/tree/main/adlc-agent-evals) |
 | [OpenLLMetry](technologies/openllmetry.md) | `obs` | Adopt | [openllmetry.md](technologies/openllmetry.md) | `llm-traces` |   |
 | [OpenTelemetry](technologies/opentelemetry.md) | `obs` | Adopt | [opentelemetry.md](technologies/opentelemetry.md) | cross-cutting (platform) |   |
-| [Prometheus](technologies/prometheus.md) | `obs` | Adopt | [prometheus.md](technologies/prometheus.md) | `metrics` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
+| [Prometheus](technologies/prometheus.md) | `obs` | Adopt | [prometheus.md](technologies/prometheus.md) | `metrics` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly), [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
 | [mcp-grafana](technologies/mcp-grafana.md) | `obs` | Trial | [mcp-grafana.md](technologies/mcp-grafana.md) | `dashboards` | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
 | [Telegraf](technologies/telegraf.md) | `obs` | Trial | [telegraf.md](technologies/telegraf.md) | `metrics` |   |
 | [Zabbix](technologies/zabbix.md) | `obs` | Assess | [zabbix.md](technologies/zabbix.md) | `alerts` |   |
@@ -149,9 +152,18 @@ Codes from the standard that have no entry yet are not listed.
 | [Docker](technologies/docker.md) | `device` | Adopt | [docker.md](technologies/docker.md) | `endpoint` |   |
 | [Kasm Workspaces](technologies/kasm-workspaces.md) | `device` | Adopt | [kasm-workspaces.md](technologies/kasm-workspaces.md) | `vdi` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
 | [RustDesk](technologies/rustdesk.md) | `device` | Adopt | [rustdesk.md](technologies/rustdesk.md) | `endpoint` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
+| [Ubuntu LTS](technologies/ubuntu-lts.md) | `device` | Adopt | [ubuntu-lts.md](technologies/ubuntu-lts.md) | `endpoint` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint), [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
 | [WinBoat](technologies/winboat.md) | `device` | Adopt | [winboat.md](technologies/winboat.md) | `endpoint` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
-| [Fleet](technologies/fleet.md) | `device` | Trial | [fleet.md](technologies/fleet.md) | `endpoint` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
-| [Podman](technologies/podman.md) | `device` | Trial | [podman.md](technologies/podman.md) | `endpoint` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
+| [chezmoi](technologies/chezmoi.md) | `device` | Trial | [chezmoi.md](technologies/chezmoi.md) | `endpoint` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint), [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
+| [Fleet](technologies/fleet.md) | `device` | Trial | [fleet.md](technologies/fleet.md) | `endpoint` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint), [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
+| [Podman](technologies/podman.md) | `device` | Trial | [podman.md](technologies/podman.md) | `endpoint` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint), [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
+| [Coder](technologies/coder.md) | `device` | Assess | [coder.md](technologies/coder.md) | `vdi` | [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
+| [Determinate Nix Installer](technologies/determinate-nix-installer.md) | `device` | Assess | [determinate-nix-installer.md](technologies/determinate-nix-installer.md) | `endpoint` | [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
+| [Fedora Atomic Desktops](technologies/fedora-atomic.md) | `device` | Assess | [fedora-atomic.md](technologies/fedora-atomic.md) | `endpoint` | [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
+| [Nix and NixOS](technologies/nix.md) | `device` | Assess | [nix.md](technologies/nix.md) | `endpoint` | [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
+| [Omarchy](technologies/omarchy.md) | `device` | Assess | [omarchy.md](technologies/omarchy.md) | `endpoint` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint), [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
+| [Toolbx and Distrobox](technologies/toolbx-distrobox.md) | `device` | Assess | [toolbx-distrobox.md](technologies/toolbx-distrobox.md) | `endpoint` | [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
+| [CachyOS](technologies/cachyos.md) | `device` | Hold | [cachyos.md](technologies/cachyos.md) | `endpoint` | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint), [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
 
 ## Cards
 
