@@ -24,7 +24,7 @@ VMware, plain KVM. Chosen for an open license and built-in clustering and backup
 
 | Capabilities | Blueprints |
 |---|---|
-| [`compute`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | none yet |
+| [`compute`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
 
 ## Review trigger
 
@@ -35,3 +35,4 @@ A license or maintenance change upstream, or a better fit for the capability.
 | Date | Ring | Change |
 |---|---|---|
 | 2026-10-15 | Adopt | Initial entry. |
+| 2026-11-15 | Adopt | Workstation rebuild drills and disposable NixOS VMs (device-workstation-stages). |

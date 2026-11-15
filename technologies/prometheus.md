@@ -25,7 +25,7 @@ Other metrics backends that accept the Prometheus data model. Chosen because the
 
 | Capabilities | Blueprints |
 |---|---|
-| [`metrics`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly) |
+| [`metrics`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | [`obs-mcp-readonly`](https://github.com/mess-systems/blueprints/tree/main/obs-mcp-readonly), [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
 
 ## Review trigger
 
@@ -36,3 +36,4 @@ A change to the observability forms, or a decision to fold `obs` into `infra` (a
 | Date | Ring | Change |
 |---|---|---|
 | 2026-10-09 | Adopt | Initial entry. |
+| 2026-11-15 | Adopt | Workstation alert: load and blocked processes (device-workstation-stages). |

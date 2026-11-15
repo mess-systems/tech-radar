@@ -25,7 +25,7 @@ Docker Engine and Docker Desktop: a permanent root daemon, and Docker Desktop li
 
 | Capabilities | Blueprints |
 |---|---|
-| [`endpoint`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint) |
+| [`endpoint`](https://github.com/mess-systems/naming-standard/blob/main/01-naming-conventions.md#43-capability-codes-unique-across-all-domains) | [`endpoint`](https://github.com/mess-systems/blueprints/tree/main/endpoint), [`device-workstation-stages`](https://github.com/mess-systems/blueprints/tree/main/device-workstation-stages) |
 
 ## Review trigger
 
@@ -36,3 +36,4 @@ After dev containers and agent sandboxes have run on `eng` devices for a cycle: 
 | Date | Ring | Change |
 |---|---|---|
 | 2026-10-15 | Trial | Initial entry. |
+| 2026-11-15 | Trial | Runtime for Dev Containers on eng workstations (device-workstation-stages). |
